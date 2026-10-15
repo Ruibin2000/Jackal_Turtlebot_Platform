@@ -1,0 +1,217 @@
+{
+  "payloads": {
+    "sensors/camera_0/color/image": {
+      "frame_id": "camera_0_color_optical_frame",
+      "width": 640,
+      "height": 480,
+      "data_bytes": 921600,
+      "serialized_bytes": 921676,
+      "encoding": "rgb8",
+      "step": 1920
+    },
+    "sensors/camera_0/depth/image": {
+      "frame_id": "camera_0_depth_optical_frame",
+      "width": 640,
+      "height": 480,
+      "data_bytes": 614400,
+      "serialized_bytes": 614476,
+      "encoding": "16UC1",
+      "step": 1280
+    },
+    "sensors/lidar3d_0/points": {
+      "frame_id": "lidar3d_0_sensor_link",
+      "width": 1024,
+      "height": 32,
+      "data_bytes": 1572864,
+      "serialized_bytes": 1573145,
+      "point_step": 48,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "t",
+          "offset": 20,
+          "datatype": 6,
+          "count": 1
+        },
+        {
+          "name": "reflectivity",
+          "offset": 24,
+          "datatype": 4,
+          "count": 1
+        },
+        {
+          "name": "ring",
+          "offset": 26,
+          "datatype": 4,
+          "count": 1
+        },
+        {
+          "name": "ambient",
+          "offset": 28,
+          "datatype": 4,
+          "count": 1
+        },
+        {
+          "name": "range",
+          "offset": 32,
+          "datatype": 6,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "odom_count": 52263,
+  "odom_total_path_m": 45.03096750828464,
+  "odom_total_abs_turn_deg": 1184.6111368607217,
+  "longest_point_gaps_with_motion": [
+    {
+      "receipt_gap_s": 139.700117847,
+      "start_ns": 1792003903858007084,
+      "end_ns": 1792004043558124931,
+      "odom_displacement_m": 4.717189933436316,
+      "odom_path_m": 5.54796088702642,
+      "odom_yaw_change_deg": -88.11644742459004,
+      "odom_abs_turn_deg": 288.3312747114842
+    },
+    {
+      "receipt_gap_s": 79.024353579,
+      "start_ns": 1792003149732933415,
+      "end_ns": 1792003228757286994,
+      "odom_displacement_m": 2.866758539981297,
+      "odom_path_m": 2.906601845413328,
+      "odom_yaw_change_deg": -30.479725833032607,
+      "odom_abs_turn_deg": 52.61301042482804
+    },
+    {
+      "receipt_gap_s": 55.396921547,
+      "start_ns": 1792003477876859164,
+      "end_ns": 1792003533273780711,
+      "odom_displacement_m": 3.2041374508813094,
+      "odom_path_m": 3.2049241911637765,
+      "odom_yaw_change_deg": 4.509995106869976,
+      "odom_abs_turn_deg": 11.806040603516657
+    },
+    {
+      "receipt_gap_s": 42.801110394,
+      "start_ns": 1792003806363610371,
+      "end_ns": 1792003849164720765,
+      "odom_displacement_m": 2.5685662871932626,
+      "odom_path_m": 2.5686060789447325,
+      "odom_yaw_change_deg": 0.4245989458507422,
+      "odom_abs_turn_deg": 3.4856045269309504
+    },
+    {
+      "receipt_gap_s": 34.488926849,
+      "start_ns": 1792003302269701470,
+      "end_ns": 1792003336758628319,
+      "odom_displacement_m": 2.0566986867291197,
+      "odom_path_m": 2.0697983923827117,
+      "odom_yaw_change_deg": -10.531027150008619,
+      "odom_abs_turn_deg": 23.62668059764598
+    },
+    {
+      "receipt_gap_s": 29.218083543,
+      "start_ns": 1792003849164720765,
+      "end_ns": 1792003878382804308,
+      "odom_displacement_m": 1.0796359981640333,
+      "odom_path_m": 1.115781776984143,
+      "odom_yaw_change_deg": -43.02501266710841,
+      "odom_abs_turn_deg": 45.16260678709356
+    },
+    {
+      "receipt_gap_s": 28.600194003,
+      "start_ns": 1792003610960721579,
+      "end_ns": 1792003639560915582,
+      "odom_displacement_m": 0.01894078011702305,
+      "odom_path_m": 0.03159100190223896,
+      "odom_yaw_change_deg": 39.704259593406775,
+      "odom_abs_turn_deg": 72.78647889366428
+    },
+    {
+      "receipt_gap_s": 27.865133048,
+      "start_ns": 1792003774010312908,
+      "end_ns": 1792003801875445956,
+      "odom_displacement_m": 0.694122484212977,
+      "odom_path_m": 0.7066195222593876,
+      "odom_yaw_change_deg": -112.90347542799266,
+      "odom_abs_turn_deg": 112.90347542799266
+    }
+  ],
+  "largest_motion_between_points": [
+    {
+      "receipt_gap_s": 139.700117847,
+      "start_ns": 1792003903858007084,
+      "end_ns": 1792004043558124931,
+      "odom_displacement_m": 4.717189933436316,
+      "odom_path_m": 5.54796088702642,
+      "odom_yaw_change_deg": -88.11644742459004,
+      "odom_abs_turn_deg": 288.3312747114842
+    },
+    {
+      "receipt_gap_s": 55.396921547,
+      "start_ns": 1792003477876859164,
+      "end_ns": 1792003533273780711,
+      "odom_displacement_m": 3.2041374508813094,
+      "odom_path_m": 3.2049241911637765,
+      "odom_yaw_change_deg": 4.509995106869976,
+      "odom_abs_turn_deg": 11.806040603516657
+    },
+    {
+      "receipt_gap_s": 79.024353579,
+      "start_ns": 1792003149732933415,
+      "end_ns": 1792003228757286994,
+      "odom_displacement_m": 2.866758539981297,
+      "odom_path_m": 2.906601845413328,
+      "odom_yaw_change_deg": -30.479725833032607,
+      "odom_abs_turn_deg": 52.61301042482804
+    },
+    {
+      "receipt_gap_s": 42.801110394,
+      "start_ns": 1792003806363610371,
+      "end_ns": 1792003849164720765,
+      "odom_displacement_m": 2.5685662871932626,
+      "odom_path_m": 2.5686060789447325,
+      "odom_yaw_change_deg": 0.4245989458507422,
+      "odom_abs_turn_deg": 3.4856045269309504
+    },
+    {
+      "receipt_gap_s": 34.488926849,
+      "start_ns": 1792003302269701470,
+      "end_ns": 1792003336758628319,
+      "odom_displacement_m": 2.0566986867291197,
+      "odom_path_m": 2.0697983923827117,
+      "odom_yaw_change_deg": -10.531027150008619,
+      "odom_abs_turn_deg": 23.62668059764598
+    }
+  ],
+  "nominal_bandwidth_assumptions_hz": {
+    "sensors/lidar3d_0/points": 10.0,
+    "sensors/camera_0/color/image": 30.0,
+    "sensors/camera_0/depth/image": 15.0
+  },
+  "nominal_three_stream_payload_mbps": 420.79096,
+  "recorded_three_stream_payload_mbps_estimate": 85.7633377750254
+}

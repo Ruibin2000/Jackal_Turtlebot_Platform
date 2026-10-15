@@ -1,0 +1,118 @@
+{
+  "bag": "/home/nyu/Desktop/jackal_rosbag_repo/debug/jackal_20261014_112127/bag",
+  "message_count": 293711,
+  "duration_s": 297.923947699,
+  "forecast_count": 2270,
+  "transformed_plan_count": 2270,
+  "clock_offset_s": 2.161302089691162,
+  "model_dt": 0.05,
+  "prediction_horizon_s": 4.0,
+  "method": "Robot-header time alignment for forecast/TF/commands/IMU; sequence visualization may differ by one controller step. Header time plus median offset labels robot log events in Host time.",
+  "first_point_position_error_m_median_p95_max": [
+    0.0011706274694620069,
+    0.002488827581976833,
+    0.003202581168924881
+  ],
+  "first_point_yaw_error_deg_median_p95_max": [
+    0.1601258927803514,
+    0.229497464972578,
+    0.26476730464696574
+  ],
+  "goals": [
+    {
+      "goal": 1,
+      "start_s": 17.46212863922119,
+      "end_s": 143.13334798812866,
+      "result": "Goal succeeded",
+      "duration_s": 125.67121934890747,
+      "goal_pose": [
+        -0.0969533696770668,
+        -1.2982044219970703,
+        3.061082335200229
+      ],
+      "initial_distance_m": 1.6996029582224963,
+      "final_distance_m": 0.24745532043632454,
+      "min_distance_m": 0.24714058677434295,
+      "final_yaw_error_deg": -14.245442212484802,
+      "zero_forward_turn_s": 64.82562255859375,
+      "moving_vx_median_mps": 0.025376474484801292
+    },
+    {
+      "goal": 2,
+      "start_s": 150.9061713218689,
+      "end_s": 294.4788808822632,
+      "result": "Goal canceled",
+      "duration_s": 143.5727095603943,
+      "goal_pose": [
+        -1.5746684074401855,
+        -3.301064968109131,
+        -1.972341991706453
+      ],
+      "initial_distance_m": 2.735311683623308,
+      "final_distance_m": 1.696075187139991,
+      "min_distance_m": 1.6834493732154545,
+      "final_yaw_error_deg": -5.736337201966782,
+      "zero_forward_turn_s": 84.8830041885376,
+      "moving_vx_median_mps": 0.022762661799788475
+    }
+  ],
+  "forecast_examples": [
+    {
+      "host_elapsed_s": 47.003201961517334,
+      "forecast_yaw_4s_deg": 6.661586752440619,
+      "observed_odom_yaw_4s_deg": -7.505875416112316
+    },
+    {
+      "host_elapsed_s": 50.00495529174805,
+      "forecast_yaw_4s_deg": 9.761894868028598,
+      "observed_odom_yaw_4s_deg": -3.6674275212092557
+    },
+    {
+      "host_elapsed_s": 54.001813888549805,
+      "forecast_yaw_4s_deg": 12.799953895193486,
+      "observed_odom_yaw_4s_deg": -0.5709531184313555
+    },
+    {
+      "host_elapsed_s": 58.00317358970642,
+      "forecast_yaw_4s_deg": 13.509137731554798,
+      "observed_odom_yaw_4s_deg": 0.770589630759784
+    },
+    {
+      "host_elapsed_s": 60.00530672073364,
+      "forecast_yaw_4s_deg": 13.68709476953551,
+      "observed_odom_yaw_4s_deg": 1.0439178030070357
+    },
+    {
+      "host_elapsed_s": 189.98919320106506,
+      "forecast_yaw_4s_deg": 2.8931067257429772,
+      "observed_odom_yaw_4s_deg": -10.174919488858189
+    },
+    {
+      "host_elapsed_s": 209.9920690059662,
+      "forecast_yaw_4s_deg": -2.398994629988567,
+      "observed_odom_yaw_4s_deg": 12.719589310489031
+    },
+    {
+      "host_elapsed_s": 230.02238702774048,
+      "forecast_yaw_4s_deg": 4.471404341761676,
+      "observed_odom_yaw_4s_deg": -8.961952454749587
+    },
+    {
+      "host_elapsed_s": 249.988831281662,
+      "forecast_yaw_4s_deg": -3.9922522249762604,
+      "observed_odom_yaw_4s_deg": 5.188804840477718
+    },
+    {
+      "host_elapsed_s": 270.0202593803406,
+      "forecast_yaw_4s_deg": 7.988638687068074,
+      "observed_odom_yaw_4s_deg": -3.491051707070429
+    },
+    {
+      "host_elapsed_s": 287.9937033653259,
+      "forecast_yaw_4s_deg": -3.544032524343011,
+      "observed_odom_yaw_4s_deg": 7.843686476044347
+    }
+  ],
+  "progress_failures": 0,
+  "recovery_runs": []
+}

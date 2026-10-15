@@ -1,0 +1,36 @@
+{
+  "goal": [
+    2.9051027297973633,
+    -0.874785840511322,
+    -1.3350217866402319
+  ],
+  "goal_started_s": 11.872779130935669,
+  "goal_succeeded_s": 276.31443071365356,
+  "navigation_duration_s": 264.4416515827179,
+  "first_recorded_distance_m": 2.096336676436247,
+  "last_recorded_distance_m": 0.24806069533553357,
+  "last_recorded_yaw_error_deg": -14.007798087131578,
+  "zero_forward_turn_duration_s": 149.65622115135193,
+  "zero_forward_turn_fraction": 0.5659328636606218,
+  "long_repeated_path_turn_count": 13,
+  "moving_forward_command_median_mps": 0.02043626457452774,
+  "max_forward_command_mps": 0.0457201711833477,
+  "first_distance_below_s": {
+    "1.5": 79.68130612373352,
+    "1.0": 149.18288779258728,
+    "0.5": 221.8455023765564,
+    "0.3": 241.36690306663513,
+    "0.25": 243.0663149356842
+  },
+  "progress_failure_s": 272.3212397098541,
+  "thirty_seconds_before_failure_pose_change": {
+    "translation_m": 0.02473568495163989,
+    "yaw_deg": -1.74810418857133
+  },
+  "missing_internal_trajectory_counts": {
+    "/trajectories": 0,
+    "/j100_0949/optimal_trajectory": 0,
+    "/j100_0949/transformed_global_plan": 0
+  },
+  "controller_parameter_changes_during_run": {}
+}

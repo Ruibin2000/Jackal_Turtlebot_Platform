@@ -1,0 +1,744 @@
+{
+  "source": "/home/nyu/Desktop/jackal_rosbag_repo/recording/jackal_20261014_143642",
+  "start": "14:36:48.797",
+  "end": "14:54:14.388",
+  "duration_s": 1045.590614153,
+  "split_elapsed_s": [
+    353.725562141,
+    727.793281472
+  ],
+  "topics": {
+    "sensors/lidar3d_0/points": {
+      "count": 79,
+      "mean_hz": 0.07555538365653312,
+      "first_elapsed_s": 5.062371593,
+      "last_elapsed_s": 1039.979888909,
+      "first_clock": "14:36:53.859",
+      "last_clock": "14:54:08.777",
+      "tail_no_message_s": 5.610725244,
+      "receipt_gaps": {
+        "median_s": 7.296713856,
+        "p95_s": 35.73575438074993,
+        "max_s": 139.700117847,
+        "count_gt_1s": 69,
+        "count_gt_5s": 47,
+        "count_gt_10s": 34,
+        "count_gt_30s": 5,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 7.2999324455,
+        "p95_s": 35.74452102699993,
+        "max_s": 139.69634141,
+        "count_gt_1s": 69,
+        "count_gt_5s": 46,
+        "count_gt_10s": 34,
+        "count_gt_30s": 5,
+        "nonpositive": 0
+      },
+      "header_unique_count": 79,
+      "receipt_minus_header_s_quantiles": [
+        1.627398189,
+        1.655428781,
+        1.817306322
+      ],
+      "count_by_file": [
+        31,
+        32,
+        16
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 0,
+          "messages_after_5s": 1,
+          "bracketing_gap_s": 27.791614238
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 1,
+          "messages_after_5s": 0,
+          "bracketing_gap_s": 21.605040979
+        }
+      ]
+    },
+    "sensors/lidar3d_0/scan": {
+      "count": 6028,
+      "mean_hz": 5.76516269217192,
+      "first_elapsed_s": 0.39104846,
+      "last_elapsed_s": 1045.58082296,
+      "first_clock": "14:36:49.188",
+      "last_clock": "14:54:14.378",
+      "tail_no_message_s": 0.009791193,
+      "receipt_gaps": {
+        "median_s": 0.113020155,
+        "p95_s": 0.404276998,
+        "max_s": 1.210738494,
+        "count_gt_1s": 3,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.10003047,
+        "p95_s": 0.40002040099999997,
+        "max_s": 1.100004351,
+        "count_gt_1s": 3,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 6028,
+      "receipt_minus_header_s_quantiles": [
+        1.615855171,
+        1.651265418,
+        1.822249298
+      ],
+      "count_by_file": [
+        2051,
+        2145,
+        1832
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 25,
+          "messages_after_5s": 26,
+          "bracketing_gap_s": 0.223741674
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 34,
+          "messages_after_5s": 32,
+          "bracketing_gap_s": 0.502280801
+        }
+      ]
+    },
+    "sensors/lidar3d_0/imu/data_raw": {
+      "count": 0,
+      "mean_hz": 0.0
+    },
+    "sensors/imu_0/data_raw": {
+      "count": 52194,
+      "mean_hz": 49.91819866543152,
+      "first_elapsed_s": 0.104837324,
+      "last_elapsed_s": 1045.573100402,
+      "first_clock": "14:36:48.902",
+      "last_clock": "14:54:14.370",
+      "tail_no_message_s": 0.017513751,
+      "receipt_gaps": {
+        "median_s": 0.01549219,
+        "p95_s": 0.0308966828,
+        "max_s": 0.951472561,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.015019452,
+        "p95_s": 0.0300637778,
+        "max_s": 0.135010605,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 52194,
+      "receipt_minus_header_s_quantiles": [
+        1.367250217,
+        1.3815396605,
+        2.305153094
+      ],
+      "count_by_file": [
+        17643,
+        18680,
+        15871
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 250,
+          "messages_after_5s": 249,
+          "bracketing_gap_s": 0.029729288
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 249,
+          "messages_after_5s": 250,
+          "bracketing_gap_s": 0.015190358
+        }
+      ]
+    },
+    "sensors/camera_0/color/image": {
+      "count": 6786,
+      "mean_hz": 6.490111816370048,
+      "first_elapsed_s": 0.238386457,
+      "last_elapsed_s": 1045.305171005,
+      "first_clock": "14:36:49.035",
+      "last_clock": "14:54:14.102",
+      "tail_no_message_s": 0.285443148,
+      "receipt_gaps": {
+        "median_s": 0.103907626,
+        "p95_s": 0.4446662359999974,
+        "max_s": 2.394300931,
+        "count_gt_1s": 17,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.100070556,
+        "p95_s": 0.4336388672,
+        "max_s": 2.401673584,
+        "count_gt_1s": 27,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 6786,
+      "receipt_minus_header_s_quantiles": [
+        1.431833829,
+        1.522692024,
+        1.74904608
+      ],
+      "count_by_file": [
+        2471,
+        2368,
+        1947
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 33,
+          "messages_after_5s": 34,
+          "bracketing_gap_s": 0.508073918
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 36,
+          "messages_after_5s": 30,
+          "bracketing_gap_s": 0.370855368
+        }
+      ]
+    },
+    "sensors/camera_0/color/camera_info": {
+      "count": 29454,
+      "mean_hz": 28.16972493948768,
+      "first_elapsed_s": 0.145758368,
+      "last_elapsed_s": 1045.587004375,
+      "first_clock": "14:36:48.943",
+      "last_clock": "14:54:14.384",
+      "tail_no_message_s": 0.003609778,
+      "receipt_gaps": {
+        "median_s": 0.033048024,
+        "p95_s": 0.0597614318,
+        "max_s": 0.959428044,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.03335669,
+        "p95_s": 0.066712646,
+        "max_s": 0.166782227,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 29454,
+      "receipt_minus_header_s_quantiles": [
+        1.418324578,
+        1.5110860549999998,
+        2.46085985
+      ],
+      "count_by_file": [
+        10110,
+        10373,
+        8971
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 140,
+          "messages_after_5s": 137,
+          "bracketing_gap_s": 0.045910103
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 135,
+          "messages_after_5s": 140,
+          "bracketing_gap_s": 0.021843576
+        }
+      ]
+    },
+    "sensors/camera_0/depth/image": {
+      "count": 7861,
+      "mean_hz": 7.518238872455783,
+      "first_elapsed_s": 0.617106459,
+      "last_elapsed_s": 1045.272183518,
+      "first_clock": "14:36:49.414",
+      "last_clock": "14:54:14.069",
+      "tail_no_message_s": 0.318430635,
+      "receipt_gaps": {
+        "median_s": 0.10380359,
+        "p95_s": 0.3469494195499999,
+        "max_s": 1.238453816,
+        "count_gt_1s": 5,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.09956250050000001,
+        "p95_s": 0.33357042285,
+        "max_s": 1.133400879,
+        "count_gt_1s": 3,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 7861,
+      "receipt_minus_header_s_quantiles": [
+        1.418834568,
+        1.471138993,
+        2.44643853
+      ],
+      "count_by_file": [
+        2755,
+        2854,
+        2252
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 34,
+          "messages_after_5s": 35,
+          "bracketing_gap_s": 0.313809428
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 37,
+          "messages_after_5s": 37,
+          "bracketing_gap_s": 0.115568443
+        }
+      ]
+    },
+    "sensors/camera_0/depth/camera_info": {
+      "count": 15383,
+      "mean_hz": 14.712259073271506,
+      "first_elapsed_s": 0.094757417,
+      "last_elapsed_s": 1045.570865828,
+      "first_clock": "14:36:48.892",
+      "last_clock": "14:54:14.368",
+      "tail_no_message_s": 0.019748325,
+      "receipt_gaps": {
+        "median_s": 0.068259918,
+        "p95_s": 0.11449611079999997,
+        "max_s": 1.003991401,
+        "count_gt_1s": 1,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.066671875,
+        "p95_s": 0.07745454024999997,
+        "max_s": 0.86672583,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 15383,
+      "receipt_minus_header_s_quantiles": [
+        1.408455036,
+        1.472384223,
+        2.468150656
+      ],
+      "count_by_file": [
+        5214,
+        5612,
+        4557
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 74,
+          "messages_after_5s": 77,
+          "bracketing_gap_s": 0.081892839
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 75,
+          "messages_after_5s": 74,
+          "bracketing_gap_s": 0.06961134
+        }
+      ]
+    },
+    "platform/odom": {
+      "count": 52263,
+      "mean_hz": 49.9841900764733,
+      "first_elapsed_s": 0.049464518,
+      "last_elapsed_s": 1045.586985735,
+      "first_clock": "14:36:48.846",
+      "last_clock": "14:54:14.384",
+      "tail_no_message_s": 0.003628418,
+      "receipt_gaps": {
+        "median_s": 0.0199943905,
+        "p95_s": 0.021735573449999997,
+        "max_s": 0.950563368,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.0200030045,
+        "p95_s": 0.020127052399999998,
+        "max_s": 0.139924804,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 52263,
+      "receipt_minus_header_s_quantiles": [
+        1.36748707,
+        1.381832407,
+        2.299780505
+      ],
+      "count_by_file": [
+        17670,
+        18703,
+        15890
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 250,
+          "messages_after_5s": 250,
+          "bracketing_gap_s": 0.020060951
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 250,
+          "messages_after_5s": 250,
+          "bracketing_gap_s": 0.020070707
+        }
+      ]
+    },
+    "platform/joint_states": {
+      "count": 52263,
+      "mean_hz": 49.9841900764733,
+      "first_elapsed_s": 0.036909729,
+      "last_elapsed_s": 1045.587013435,
+      "first_clock": "14:36:48.834",
+      "last_clock": "14:54:14.384",
+      "tail_no_message_s": 0.003600718,
+      "receipt_gaps": {
+        "median_s": 0.019990093,
+        "p95_s": 0.0217480016,
+        "max_s": 0.950978239,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_gaps_in_receipt_order": {
+        "median_s": 0.020002754,
+        "p95_s": 0.020117876399999998,
+        "max_s": 0.13993127,
+        "count_gt_1s": 0,
+        "count_gt_5s": 0,
+        "count_gt_10s": 0,
+        "count_gt_30s": 0,
+        "nonpositive": 0
+      },
+      "header_unique_count": 52263,
+      "receipt_minus_header_s_quantiles": [
+        1.367230543,
+        1.381663967,
+        2.299752282
+      ],
+      "count_by_file": [
+        17670,
+        18703,
+        15890
+      ],
+      "split_windows": [
+        {
+          "split_elapsed_s": 353.725562141,
+          "messages_before_5s": 250,
+          "messages_after_5s": 250,
+          "bracketing_gap_s": 0.020056101
+        },
+        {
+          "split_elapsed_s": 727.793281472,
+          "messages_before_5s": 250,
+          "messages_after_5s": 250,
+          "bracketing_gap_s": 0.019882073
+        }
+      ]
+    }
+  },
+  "camera_correspondence": {
+    "color": {
+      "unique_images": 6786,
+      "unique_info": 29454,
+      "exact_stamp_matches": 6786,
+      "info_without_image": 22668,
+      "images_without_info": 0,
+      "unmatched_info_run_count": 6214,
+      "max_unmatched_info_run": 63,
+      "longest_runs": [
+        {
+          "unmatched_camera_info_count": 63,
+          "start_header_ns": 1792003033929451416,
+          "end_header_ns": 1792003036264411865,
+          "span_s": 2.334960449
+        },
+        {
+          "unmatched_camera_info_count": 41,
+          "start_header_ns": 1792004020821668457,
+          "end_header_ns": 1792004022155948975,
+          "span_s": 1.334280518
+        },
+        {
+          "unmatched_camera_info_count": 41,
+          "start_header_ns": 1792004014684077881,
+          "end_header_ns": 1792004016018327881,
+          "span_s": 1.33425
+        },
+        {
+          "unmatched_camera_info_count": 39,
+          "start_header_ns": 1792004004376796631,
+          "end_header_ns": 1792004005644354248,
+          "span_s": 1.267557617
+        },
+        {
+          "unmatched_camera_info_count": 39,
+          "start_header_ns": 1792003993969506592,
+          "end_header_ns": 1792003995237061768,
+          "span_s": 1.267555176
+        },
+        {
+          "unmatched_camera_info_count": 39,
+          "start_header_ns": 1792004043437547852,
+          "end_header_ns": 1792004044705094482,
+          "span_s": 1.26754663
+        },
+        {
+          "unmatched_camera_info_count": 38,
+          "start_header_ns": 1792004028360307861,
+          "end_header_ns": 1792004029594520020,
+          "span_s": 1.234212159
+        },
+        {
+          "unmatched_camera_info_count": 38,
+          "start_header_ns": 1792003977357896484,
+          "end_header_ns": 1792003978592090820,
+          "span_s": 1.234194336
+        },
+        {
+          "unmatched_camera_info_count": 35,
+          "start_header_ns": 1792004032963550537,
+          "end_header_ns": 1792004034097673340,
+          "span_s": 1.134122803
+        },
+        {
+          "unmatched_camera_info_count": 28,
+          "start_header_ns": 1792003649127641113,
+          "end_header_ns": 1792003650261759766,
+          "span_s": 1.134118653
+        }
+      ]
+    },
+    "depth": {
+      "unique_images": 7861,
+      "unique_info": 15383,
+      "exact_stamp_matches": 7861,
+      "info_without_image": 7522,
+      "images_without_info": 0,
+      "unmatched_info_run_count": 3906,
+      "max_unmatched_info_run": 15,
+      "longest_runs": [
+        {
+          "unmatched_camera_info_count": 13,
+          "start_header_ns": 1792003034202074463,
+          "end_header_ns": 1792003035202134033,
+          "span_s": 1.00005957
+        },
+        {
+          "unmatched_camera_info_count": 15,
+          "start_header_ns": 1792003148109518311,
+          "end_header_ns": 1792003149076172607,
+          "span_s": 0.966654296
+        },
+        {
+          "unmatched_camera_info_count": 14,
+          "start_header_ns": 1792003876923422119,
+          "end_header_ns": 1792003877790131592,
+          "span_s": 0.866709473
+        },
+        {
+          "unmatched_camera_info_count": 13,
+          "start_header_ns": 1792003263350249268,
+          "end_header_ns": 1792003264150307373,
+          "span_s": 0.800058105
+        },
+        {
+          "unmatched_camera_info_count": 12,
+          "start_header_ns": 1792003503358702148,
+          "end_header_ns": 1792003504099201416,
+          "span_s": 0.740499268
+        },
+        {
+          "unmatched_camera_info_count": 12,
+          "start_header_ns": 1792003227665302979,
+          "end_header_ns": 1792003228399151123,
+          "span_s": 0.733848144
+        },
+        {
+          "unmatched_camera_info_count": 12,
+          "start_header_ns": 1792003803385316895,
+          "end_header_ns": 1792003804118701904,
+          "span_s": 0.733385009
+        },
+        {
+          "unmatched_camera_info_count": 11,
+          "start_header_ns": 1792003499222472900,
+          "end_header_ns": 1792003499889604736,
+          "span_s": 0.667131836
+        },
+        {
+          "unmatched_camera_info_count": 4,
+          "start_header_ns": 1792003064139088379,
+          "end_header_ns": 1792003064805637939,
+          "span_s": 0.66654956
+        },
+        {
+          "unmatched_camera_info_count": 11,
+          "start_header_ns": 1792003464830019287,
+          "end_header_ns": 1792003465465483643,
+          "span_s": 0.635464356
+        }
+      ]
+    }
+  },
+  "longest_point_gaps": [
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 895.060501218,
+      "end_s": 1034.760619065,
+      "duration_s": 139.700117847,
+      "start_clock": "14:51:43.858",
+      "end_clock": "14:54:03.558"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 140.935427549,
+      "end_s": 219.959781128,
+      "duration_s": 79.024353579,
+      "start_clock": "14:39:09.732",
+      "end_clock": "14:40:28.757"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 469.079353298,
+      "end_s": 524.476274845,
+      "duration_s": 55.396921547,
+      "start_clock": "14:44:37.876",
+      "end_clock": "14:45:33.273"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 797.566104505,
+      "end_s": 840.367214899,
+      "duration_s": 42.801110394,
+      "start_clock": "14:50:06.363",
+      "end_clock": "14:50:49.164"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 293.472195604,
+      "end_s": 327.961122453,
+      "duration_s": 34.488926849,
+      "start_clock": "14:41:42.269",
+      "end_clock": "14:42:16.758"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 840.367214899,
+      "end_s": 869.585298442,
+      "duration_s": 29.218083543,
+      "start_clock": "14:50:49.164",
+      "end_clock": "14:51:18.382"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 602.163215713,
+      "end_s": 630.763409716,
+      "duration_s": 28.600194003,
+      "start_clock": "14:46:50.960",
+      "end_clock": "14:47:19.560"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 765.212807042,
+      "end_s": 793.07794009,
+      "duration_s": 27.865133048,
+      "start_clock": "14:49:34.010",
+      "end_clock": "14:50:01.875"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 327.961122453,
+      "end_s": 355.752736691,
+      "duration_s": 27.791614238,
+      "start_clock": "14:42:16.758",
+      "end_clock": "14:42:44.550"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 700.662370487,
+      "end_s": 727.156791854,
+      "duration_s": 26.494421367,
+      "start_clock": "14:48:29.459",
+      "end_clock": "14:48:55.954"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 576.455469559,
+      "end_s": 599.065943441,
+      "duration_s": 22.610473882,
+      "start_clock": "14:46:25.252",
+      "end_clock": "14:46:47.863"
+    },
+    {
+      "topic": "sensors/lidar3d_0/points",
+      "start_s": 373.059711658,
+      "end_s": 394.767164076,
+      "duration_s": 21.707452418,
+      "start_clock": "14:43:01.857",
+      "end_clock": "14:43:23.564"
+    }
+  ]
+}

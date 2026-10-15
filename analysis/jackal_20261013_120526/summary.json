@@ -1,0 +1,251 @@
+{
+  "robot_stamp_start": 1791907569.5172186,
+  "robot_stamp_end": 1791907901.3576648,
+  "command_window_s": 331.8404462337494,
+  "map_pose_start": [
+    1.0000037204124872,
+    -4.051620816569734e-06,
+    -8.547213294475203e-06
+  ],
+  "map_pose_end": [
+    1.5920635037570374,
+    0.029719060799438313,
+    -2.7671677128144125
+  ],
+  "map_yaw_min_max_deg": [
+    -179.99679619061592,
+    179.9780018968703
+  ],
+  "positive_heading_peaks_seconds": [
+    89.31255602836609,
+    124.56252241134644,
+    160.4124882221222,
+    199.81245064735413,
+    254.06239891052246,
+    295.2623596191406
+  ],
+  "negative_heading_peaks_seconds": [
+    71.16257333755493,
+    106.61253952980042,
+    142.3625054359436,
+    179.86246967315674,
+    218.8624324798584,
+    276.1123778820038,
+    312.4123432636261
+  ],
+  "command_vx_range": [
+    0.0,
+    0.13631682097911835
+  ],
+  "command_wz_range": [
+    -0.16372030973434448,
+    0.1616726815700531
+  ],
+  "linear_command_zero_fraction": 0.7025251612125595,
+  "commanded_reverse_seconds": 0.0,
+  "progress_failure_count_in_bag": 5,
+  "recovery_spin_or_backup_in_bag": 1,
+  "velocity_chain": [
+    {
+      "from": "cmd_vel_nav",
+      "to": "cmd_vel_smoothed",
+      "mean_abs_diff_vx_wz": [
+        8.569305872680809e-05,
+        0.00017566840262872398
+      ]
+    },
+    {
+      "from": "cmd_vel_smoothed",
+      "to": "cmd_vel",
+      "mean_abs_diff_vx_wz": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "from": "platform/cmd_vel_out",
+      "to": "platform/odom",
+      "mean_abs_diff_vx_wz": [
+        0.0010687928386175507,
+        0.009649149398174184
+      ]
+    }
+  ],
+  "imu_odom_yaw_correlation_when_rotating": 0.9979488453811646,
+  "max_map_correction_translation_m": 0.8884709807431566,
+  "max_map_correction_yaw_deg": 14.797208017048609,
+  "forward_intervals": [
+    {
+      "start_s": 0.020545482635498047,
+      "end_s": 25.273128747940063,
+      "yaw_start_deg": -0.001922136892210085,
+      "yaw_end_deg": 1.2259594835448988,
+      "sample_heading_error_start_deg": 0.00223205872576691,
+      "sample_heading_error_end_deg": -21.196843844011152,
+      "median_cmd_wz_radps": 0.0003826905012829229,
+      "displacement_m": 2.263880386544469
+    },
+    {
+      "start_s": 60.65589904785156,
+      "end_s": 64.96548867225647,
+      "yaw_start_deg": -171.8090428136409,
+      "yaw_end_deg": 157.0201531593942,
+      "sample_heading_error_start_deg": -9.20594199766958,
+      "sample_heading_error_end_deg": 24.311037575096172,
+      "median_cmd_wz_radps": -0.12305748462677002,
+      "displacement_m": 0.10536175813499353
+    },
+    {
+      "start_s": 65.33377313613892,
+      "end_s": 69.0624668598175,
+      "yaw_start_deg": 169.8804890209845,
+      "yaw_end_deg": 155.6705538829038,
+      "sample_heading_error_start_deg": 6.734743823919804,
+      "sample_heading_error_end_deg": 23.275717298108137,
+      "median_cmd_wz_radps": -0.062398144975304604,
+      "displacement_m": 0.058676307461732
+    },
+    {
+      "start_s": 81.49895668029785,
+      "end_s": 86.5276107788086,
+      "yaw_start_deg": 169.83444270772966,
+      "yaw_end_deg": -159.45441642106155,
+      "sample_heading_error_start_deg": 9.445231224384413,
+      "sample_heading_error_end_deg": -23.034996311707964,
+      "median_cmd_wz_radps": 0.10301809012889862,
+      "displacement_m": 0.12352144594787988
+    },
+    {
+      "start_s": 99.28075432777405,
+      "end_s": 103.97932195663452,
+      "yaw_start_deg": -172.2174798824161,
+      "yaw_end_deg": 159.91942068449796,
+      "sample_heading_error_start_deg": -8.45606950638064,
+      "sample_heading_error_end_deg": 21.29931791690896,
+      "median_cmd_wz_radps": -0.10157470405101776,
+      "displacement_m": 0.09770769665652872
+    },
+    {
+      "start_s": 116.83103132247925,
+      "end_s": 121.42909002304077,
+      "yaw_start_deg": 172.992635386064,
+      "yaw_end_deg": -157.4379509567771,
+      "sample_heading_error_start_deg": 8.536284991601232,
+      "sample_heading_error_end_deg": -23.239858855832196,
+      "median_cmd_wz_radps": 0.1088603138923645,
+      "displacement_m": 0.13102230675361026
+    },
+    {
+      "start_s": 135.42588663101196,
+      "end_s": 139.7795376777649,
+      "yaw_start_deg": -172.05732036935052,
+      "yaw_end_deg": 159.84406992968502,
+      "sample_heading_error_start_deg": -8.971137436371805,
+      "sample_heading_error_end_deg": 20.89853295947695,
+      "median_cmd_wz_radps": -0.10376624017953873,
+      "displacement_m": 0.0750700558793029
+    },
+    {
+      "start_s": 153.12088418006897,
+      "end_s": 158.27783393859863,
+      "yaw_start_deg": 173.32538250816268,
+      "yaw_end_deg": -154.78952598134052,
+      "sample_heading_error_start_deg": 7.88291157670725,
+      "sample_heading_error_end_deg": -27.104349754218955,
+      "median_cmd_wz_radps": 0.10400868952274323,
+      "displacement_m": 0.11206336170834186
+    },
+    {
+      "start_s": 172.12950372695923,
+      "end_s": 176.78439688682556,
+      "yaw_start_deg": -174.30162776268077,
+      "yaw_end_deg": 155.033441702706,
+      "sample_heading_error_start_deg": -8.158557493030232,
+      "sample_heading_error_end_deg": 27.57960965772943,
+      "median_cmd_wz_radps": -0.11588679626584053,
+      "displacement_m": 0.10012277510954437
+    },
+    {
+      "start_s": 192.0806987285614,
+      "end_s": 196.2863531112671,
+      "yaw_start_deg": 174.1161678607141,
+      "yaw_end_deg": -155.56788789130854,
+      "sample_heading_error_start_deg": 8.9416411987912,
+      "sample_heading_error_end_deg": -23.830872011122484,
+      "median_cmd_wz_radps": 0.12328848242759705,
+      "displacement_m": 0.10266074868951029
+    },
+    {
+      "start_s": 210.986722946167,
+      "end_s": 215.78697204589844,
+      "yaw_start_deg": -171.72522880841456,
+      "yaw_end_deg": 154.66685725688262,
+      "sample_heading_error_start_deg": -8.000555580131131,
+      "sample_heading_error_end_deg": 23.971459181982336,
+      "median_cmd_wz_radps": -0.11517325788736343,
+      "displacement_m": 0.10774290472157881
+    },
+    {
+      "start_s": 230.08994150161743,
+      "end_s": 235.2788302898407,
+      "yaw_start_deg": 169.83973410055427,
+      "yaw_end_deg": -155.1411054519232,
+      "sample_heading_error_start_deg": 9.197074739494099,
+      "sample_heading_error_end_deg": -26.369874293142374,
+      "median_cmd_wz_radps": 0.11119171977043152,
+      "displacement_m": 0.1426520004760849
+    },
+    {
+      "start_s": 268.19665002822876,
+      "end_s": 272.4905638694763,
+      "yaw_start_deg": -169.13321436699223,
+      "yaw_end_deg": 160.16575565008674,
+      "sample_heading_error_start_deg": -9.10281646193143,
+      "sample_heading_error_end_deg": 23.00795839599939,
+      "median_cmd_wz_radps": -0.1220017746090889,
+      "displacement_m": 0.06503507859606282
+    },
+    {
+      "start_s": 286.5268704891205,
+      "end_s": 292.0276117324829,
+      "yaw_start_deg": 168.07401364807995,
+      "yaw_end_deg": -159.18514471712982,
+      "sample_heading_error_start_deg": 9.259292861802265,
+      "sample_heading_error_end_deg": -20.874889773746773,
+      "median_cmd_wz_radps": 0.09933874756097794,
+      "displacement_m": 0.15247532994024868
+    },
+    {
+      "start_s": 304.9297294616699,
+      "end_s": 309.4284391403198,
+      "yaw_start_deg": -172.10103886155275,
+      "yaw_end_deg": 161.24105960839407,
+      "sample_heading_error_start_deg": -8.384051574334555,
+      "sample_heading_error_end_deg": 22.255111973367477,
+      "median_cmd_wz_radps": -0.09467114508152008,
+      "displacement_m": 0.08312527399198998
+    },
+    {
+      "start_s": 321.78230714797974,
+      "end_s": 327.9381501674652,
+      "yaw_start_deg": 168.45973094032962,
+      "yaw_end_deg": -160.10287985982538,
+      "sample_heading_error_start_deg": 8.80333201437306,
+      "sample_heading_error_end_deg": -22.55287352143532,
+      "median_cmd_wz_radps": 0.08418529480695724,
+      "displacement_m": 0.15920153157920783
+    }
+  ],
+  "yaw_wrap_note": "Raw [-180,180] extrema are a representation wrap, not a full physical revolution; use wrapped path-heading error or unwrapped plot.",
+  "rough_base_yaw_fit": {
+    "rmse_radps": 0.009971863991127119,
+    "lag_seconds": 0.22,
+    "gain": 0.9726676775983094
+  },
+  "first_goal_stop_integrated_yaw_next_2s_deg": -4.45566286601852,
+  "path_heading_error_deg_80_to_240s": [
+    -31.542109906755023,
+    33.30428220387973
+  ],
+  "forward_interval_note": "MPPI forward intervals are inferred from positive linear velocity; heading errors are reconstructed, not controller internal telemetry. Wrapped yaw values must not be subtracted directly."
+}

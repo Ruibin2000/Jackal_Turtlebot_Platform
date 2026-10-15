@@ -1,0 +1,153 @@
+{
+  "robot_stamp_start": 1791906601.0982432,
+  "robot_stamp_end": 1791906739.3133147,
+  "command_window_s": 138.21507143974304,
+  "map_pose_start": [
+    1.6258319934802314,
+    -0.004205677283021202,
+    0.26117790537688723
+  ],
+  "map_pose_end": [
+    2.4104766191009883,
+    -0.029810269911712976,
+    0.5586859223523165
+  ],
+  "map_yaw_min_max_deg": [
+    -31.881010789223627,
+    35.39688283196759
+  ],
+  "positive_heading_peaks_seconds": [
+    26.49158215522766,
+    64.34154605865479,
+    101.94151020050049
+  ],
+  "negative_heading_peaks_seconds": [
+    8.791599035263062,
+    45.04156446456909,
+    83.2415280342102,
+    119.84149312973022
+  ],
+  "command_vx_range": [
+    0.0,
+    0.039794232696294785
+  ],
+  "command_wz_range": [
+    -0.16670635342597961,
+    0.15710866451263428
+  ],
+  "linear_command_zero_fraction": 0.7561857907683404,
+  "commanded_reverse_seconds": 0.0,
+  "progress_failure_count_in_bag": 3,
+  "recovery_spin_or_backup_in_bag": 0,
+  "velocity_chain": [
+    {
+      "from": "cmd_vel_nav",
+      "to": "cmd_vel_smoothed",
+      "mean_abs_diff_vx_wz": [
+        4.942692255226926e-05,
+        0.00024744562413724677
+      ]
+    },
+    {
+      "from": "cmd_vel_smoothed",
+      "to": "cmd_vel",
+      "mean_abs_diff_vx_wz": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "from": "platform/cmd_vel_out",
+      "to": "platform/odom",
+      "mean_abs_diff_vx_wz": [
+        0.0011022760444806968,
+        0.010777880986212874
+      ]
+    }
+  ],
+  "imu_odom_yaw_correlation_when_rotating": 0.9980305925440882,
+  "max_map_correction_translation_m": 0.09079628189540287,
+  "max_map_correction_yaw_deg": 2.399547246007903,
+  "forward_intervals": [
+    {
+      "start_s": 1.043699026107788,
+      "end_s": 6.844910383224487,
+      "yaw_start_deg": 8.57560745558676,
+      "yaw_end_deg": -24.562646699283345,
+      "sample_heading_error_start_deg": -8.103613200541648,
+      "sample_heading_error_end_deg": 27.396268258430343,
+      "median_cmd_wz_radps": -0.10082999616861343,
+      "displacement_m": 0.15089275431881408
+    },
+    {
+      "start_s": 19.485114574432373,
+      "end_s": 23.24480152130127,
+      "yaw_start_deg": -4.381229351642392,
+      "yaw_end_deg": 23.6324227074184,
+      "sample_heading_error_start_deg": 7.899553760029373,
+      "sample_heading_error_end_deg": -25.995599341797753,
+      "median_cmd_wz_radps": 0.12528935819864273,
+      "displacement_m": 0.10886072988241095
+    },
+    {
+      "start_s": 37.544026613235474,
+      "end_s": 41.68756723403931,
+      "yaw_start_deg": 5.252367136688613,
+      "yaw_end_deg": -25.347543636864593,
+      "sample_heading_error_start_deg": -7.964709092906065,
+      "sample_heading_error_end_deg": 26.60723903937596,
+      "median_cmd_wz_radps": -0.12024528533220291,
+      "displacement_m": 0.08585816042820761
+    },
+    {
+      "start_s": 58.198867082595825,
+      "end_s": 60.161075592041016,
+      "yaw_start_deg": 6.387664462279796,
+      "yaw_end_deg": 22.520542113085394,
+      "sample_heading_error_start_deg": -4.8565846065197755,
+      "sample_heading_error_end_deg": -21.77577406643219,
+      "median_cmd_wz_radps": 0.14072920382022858,
+      "displacement_m": 0.02680928586841467
+    },
+    {
+      "start_s": 75.37496614456177,
+      "end_s": 79.66623973846436,
+      "yaw_start_deg": 10.133196056836674,
+      "yaw_end_deg": -24.20429233177548,
+      "sample_heading_error_start_deg": -9.564762182096718,
+      "sample_heading_error_end_deg": 27.25438580107121,
+      "median_cmd_wz_radps": -0.13097244501113892,
+      "displacement_m": 0.08814428547916867
+    },
+    {
+      "start_s": 94.15792679786682,
+      "end_s": 97.86343765258789,
+      "yaw_start_deg": -5.800061290892688,
+      "yaw_end_deg": 22.557194592532127,
+      "sample_heading_error_start_deg": 8.914012470371514,
+      "sample_heading_error_end_deg": -21.503989933586293,
+      "median_cmd_wz_radps": 0.1304871141910553,
+      "displacement_m": 0.09538287377714892
+    },
+    {
+      "start_s": 112.61449193954468,
+      "end_s": 116.3273355960846,
+      "yaw_start_deg": 4.596988766782594,
+      "yaw_end_deg": -19.78214988472829,
+      "sample_heading_error_start_deg": -3.915153533260142,
+      "sample_heading_error_end_deg": 22.11466918268352,
+      "median_cmd_wz_radps": -0.11007411777973175,
+      "displacement_m": 0.08674463446726198
+    },
+    {
+      "start_s": 130.09820938110352,
+      "end_s": 134.7735514640808,
+      "yaw_start_deg": -6.78258400963841,
+      "yaw_end_deg": 26.26359212915549,
+      "sample_heading_error_start_deg": 9.39114844883526,
+      "sample_heading_error_end_deg": -29.470743943123466,
+      "median_cmd_wz_radps": 0.12196841090917587,
+      "displacement_m": 0.14825809849717322
+    }
+  ]
+}

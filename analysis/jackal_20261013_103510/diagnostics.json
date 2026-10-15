@@ -1,0 +1,84 @@
+{
+  "method": "Velocity chain and reverse duration: zero-order hold on 0.02 s grid using receive time minus median command timestamp offset; BackUp windows include 0.3 s output tail. Odometry is not external motion ground truth.",
+  "receive_minus_stamp_median_s": 1.756352424621582,
+  "reverse_command_threshold_mps": -0.01,
+  "reverse_seconds_total": 155.04,
+  "reverse_seconds_in_backup": 7.04,
+  "reverse_seconds_outside_backup": 148.0,
+  "reverse_seconds_first_100s_goal3": 92.42,
+  "backup_intervals_robot_epoch_s": [
+    [
+      1791902693.5079138,
+      1791902696.808786
+    ],
+    [
+      1791903330.681983,
+      1791903333.982356
+    ]
+  ],
+  "spin_intervals_robot_epoch_s": [
+    [
+      1791902553.8972526,
+      1791902559.3982773
+    ],
+    [
+      1791903185.302855,
+      1791903191.4038045
+    ]
+  ],
+  "command_chain": [
+    {
+      "from": "cmd_vel_nav",
+      "to": "cmd_vel_smoothed",
+      "mean_absolute_difference_vx_mps_wz_radps": [
+        9.312581175796269e-05,
+        0.00013554689873084482
+      ]
+    },
+    {
+      "from": "cmd_vel_smoothed",
+      "to": "cmd_vel",
+      "mean_absolute_difference_vx_mps_wz_radps": [
+        0.0002545034912037172,
+        0.0002841664604969559
+      ]
+    },
+    {
+      "from": "cmd_vel",
+      "to": "platform/cmd_vel",
+      "mean_absolute_difference_vx_mps_wz_radps": [
+        1.988073085263699e-06,
+        2.004503912035853e-06
+      ]
+    },
+    {
+      "from": "platform/cmd_vel",
+      "to": "platform/cmd_vel_out",
+      "mean_absolute_difference_vx_mps_wz_radps": [
+        5.092336321566543e-05,
+        5.0654017477352654e-05
+      ]
+    },
+    {
+      "from": "platform/cmd_vel_out",
+      "to": "platform/odom",
+      "mean_absolute_difference_vx_mps_wz_radps": [
+        0.0005960738213732387,
+        0.0015257855751098697
+      ]
+    },
+    {
+      "from": "platform/odom",
+      "to": "platform/odom/filtered",
+      "mean_absolute_difference_vx_mps_wz_radps": [
+        0.0008748041805914164,
+        0.0018204607447667599
+      ]
+    }
+  ],
+  "command_yaw_absolute_max_radps": 0.10598664730787277,
+  "odom_yaw_absolute_max_radps": 0.10896480762389918,
+  "max_map_to_odom_start_translation_step_m": 0.38625559933149317,
+  "corresponding_yaw_step_deg": 6.198830385520388,
+  "max_correction_local_time": "2026-10-13T10:39:07.195564-04:00"
+}

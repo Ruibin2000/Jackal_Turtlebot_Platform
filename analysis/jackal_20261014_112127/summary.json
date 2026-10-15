@@ -1,0 +1,569 @@
+{
+  "bag_duration_s": 297.923947699,
+  "message_count": 293711,
+  "host_start_epoch": 1791991324.9546437,
+  "host_minus_robot_stamp_median_s": 2.161302089691162,
+  "host_minus_robot_stamp_p05_p95_s": [
+    2.158020257949829,
+    2.1648342609405518
+  ],
+  "base_geometry": {
+    "wheel_radius": 0.098,
+    "wheel_separation": 0.37559,
+    "wheel_separation_multiplier": 1.5,
+    "effective_separation": 0.563385
+  },
+  "motor_modes": {
+    "0.0": 14877
+  },
+  "driver_fault_samples": [
+    0.0,
+    0.0
+  ],
+  "motor_feedback_modes": {
+    "(0.0, 0.0)": 14881
+  },
+  "timing": {
+    "motor_commands": {
+      "count": 14877,
+      "median_period_s": 0.01999974250793457,
+      "p99_period_s": 0.02180302143096924,
+      "max_period_s": 0.0669560432434082
+    },
+    "motor_feedback": {
+      "count": 14881,
+      "median_period_s": 0.01999795436859131,
+      "p99_period_s": 0.022439913749694815,
+      "max_period_s": 0.05932807922363281
+    },
+    "cmd_vel_nav": {
+      "count": 5386,
+      "median_period_s": 0.04995536804199219,
+      "p99_period_s": 0.0757763004302978,
+      "max_period_s": 7.857529640197754
+    },
+    "platform/cmd_vel_out": {
+      "count": 14877,
+      "median_period_s": 0.020000219345092773,
+      "p99_period_s": 0.0217055082321167,
+      "max_period_s": 0.0669558048248291
+    },
+    "sensors/imu_0/data_raw": {
+      "count": 14860,
+      "median_period_s": 0.015419721603393555,
+      "p99_period_s": 0.03154316425323486,
+      "max_period_s": 0.05645871162414551
+    }
+  },
+  "estop_transitions": [
+    {
+      "receipt_s": 1.201610803604126,
+      "robot_stamp": 1791991323.1408455,
+      "triggered": "False"
+    }
+  ],
+  "inner_wheel_intervals": [
+    {
+      "side": "right",
+      "start_host": "11:22:47.205",
+      "start_robot_approx": "11:22:45.044",
+      "start_s": 42.25121355056763,
+      "end_s": 43.85128974914551,
+      "duration_s": 1.6000761985778809,
+      "vx_mps": 0.02622869983315468,
+      "wz_radps": -0.0792306438088417,
+      "target_left_radps": 0.4944250285625458,
+      "target_right_radps": 0.048686109483242035,
+      "actual_left_radps": 0.4886535704135895,
+      "actual_right_radps": 0.0,
+      "imu_wz_radps": -0.07859914123212731,
+      "current_left_A": 1.7084370851516724,
+      "current_right_A": 0.7016072273254395,
+      "duty_left": 0.1925244778394699,
+      "duty_right": -0.11815792322158813,
+      "inner_encoder_delta_rad": 0.004413604736328125
+    },
+    {
+      "side": "right",
+      "start_host": "11:23:41.965",
+      "start_robot_approx": "11:23:39.804",
+      "start_s": 97.01112294197083,
+      "end_s": 99.32941603660583,
+      "duration_s": 2.3182930946350098,
+      "vx_mps": 0.027236972004175186,
+      "wz_radps": -0.08000261336565018,
+      "target_left_radps": 0.5080997347831726,
+      "target_right_radps": 0.04790423437952995,
+      "actual_left_radps": 0.501963198184967,
+      "actual_right_radps": 0.0,
+      "imu_wz_radps": -0.08134811045735205,
+      "current_left_A": 1.7410904169082642,
+      "current_right_A": 0.6694517731666565,
+      "duty_left": 0.1935281604528427,
+      "duty_right": -0.11501839011907578,
+      "inner_encoder_delta_rad": 0.0095062255859375
+    },
+    {
+      "side": "right",
+      "start_host": "11:25:12.162",
+      "start_robot_approx": "11:25:10.001",
+      "start_s": 187.20805478096008,
+      "end_s": 188.44636416435242,
+      "duration_s": 1.238309383392334,
+      "vx_mps": 0.02712191268801689,
+      "wz_radps": -0.07974456250667572,
+      "target_left_radps": 0.5063962340354919,
+      "target_right_radps": 0.046557676047086716,
+      "actual_left_radps": 0.4995097815990448,
+      "actual_right_radps": 0.0,
+      "imu_wz_radps": -0.08055968915460184,
+      "current_left_A": 1.6541862487792969,
+      "current_right_A": 0.7605453729629517,
+      "duty_left": 0.1913781762123108,
+      "duty_right": -0.1184278279542923,
+      "inner_encoder_delta_rad": 0.00104522705078125
+    },
+    {
+      "side": "right",
+      "start_host": "11:25:51.361",
+      "start_robot_approx": "11:25:49.199",
+      "start_s": 226.40646648406982,
+      "end_s": 228.0857617855072,
+      "duration_s": 1.679295301437378,
+      "vx_mps": 0.027127515524625778,
+      "wz_radps": -0.07999809086322784,
+      "target_left_radps": 0.5073346495628357,
+      "target_right_radps": 0.04748011380434036,
+      "actual_left_radps": 0.49957114458084106,
+      "actual_right_radps": 0.0,
+      "imu_wz_radps": -0.08085906859486704,
+      "current_left_A": 1.8295966386795044,
+      "current_right_A": 0.7326157689094543,
+      "duty_left": 0.20051546394824982,
+      "duty_right": -0.12135210633277893,
+      "inner_encoder_delta_rad": 0.00429534912109375
+    },
+    {
+      "side": "right",
+      "start_host": "11:26:29.459",
+      "start_robot_approx": "11:26:27.298",
+      "start_s": 264.50523352622986,
+      "end_s": 266.2849471569061,
+      "duration_s": 1.7797136306762695,
+      "vx_mps": 0.025875688530504704,
+      "wz_radps": -0.0770096592605114,
+      "target_left_radps": 0.485395222902298,
+      "target_right_radps": 0.04782693460583687,
+      "actual_left_radps": 0.4885922074317932,
+      "actual_right_radps": 0.0,
+      "imu_wz_radps": -0.07832392473400333,
+      "current_left_A": 1.8224084973335266,
+      "current_right_A": 0.7709842026233673,
+      "duty_left": 0.2007046341896057,
+      "duty_right": -0.12521793693304062,
+      "inner_encoder_delta_rad": 0.00405120849609375
+    },
+    {
+      "side": "left",
+      "start_host": "11:24:02.303",
+      "start_robot_approx": "11:24:00.142",
+      "start_s": 117.34920167922974,
+      "end_s": 120.02873682975769,
+      "duration_s": 2.679535150527954,
+      "vx_mps": 0.02649756520986557,
+      "wz_radps": 0.07999851554632187,
+      "target_left_radps": 0.040962234139442444,
+      "target_right_radps": 0.5003637671470642,
+      "actual_left_radps": 0.0,
+      "actual_right_radps": 0.48669084906578064,
+      "imu_wz_radps": 0.07922103487772997,
+      "current_left_A": 0.856472909450531,
+      "current_right_A": 1.6088541746139526,
+      "duty_left": -0.12396687269210815,
+      "duty_right": 0.1889037936925888,
+      "inner_encoder_delta_rad": 0.0036163330078125
+    },
+    {
+      "side": "left",
+      "start_host": "11:24:53.482",
+      "start_robot_approx": "11:24:51.321",
+      "start_s": 168.52779531478882,
+      "end_s": 170.54708766937256,
+      "duration_s": 2.0192923545837402,
+      "vx_mps": 0.02707470953464508,
+      "wz_radps": 0.08002052456140518,
+      "target_left_radps": 0.04632311314344406,
+      "target_right_radps": 0.5065046548843384,
+      "actual_left_radps": 0.0,
+      "actual_right_radps": 0.49671904742717743,
+      "imu_wz_radps": 0.07859792845341501,
+      "current_left_A": 0.9600856900215149,
+      "current_right_A": 1.698918640613556,
+      "duty_left": -0.13747680932283401,
+      "duty_right": 0.19582555443048477,
+      "inner_encoder_delta_rad": 0.000244140625
+    },
+    {
+      "side": "left",
+      "start_host": "11:24:55.582",
+      "start_robot_approx": "11:24:53.420",
+      "start_s": 170.62741875648499,
+      "end_s": 171.56847834587097,
+      "duration_s": 0.9410595893859863,
+      "vx_mps": 0.024846427142620087,
+      "wz_radps": 0.07511332631111145,
+      "target_left_radps": 0.034398555755615234,
+      "target_right_radps": 0.4671247899532318,
+      "actual_left_radps": 0.0016560368821956217,
+      "actual_right_radps": 0.46611304581165314,
+      "imu_wz_radps": 0.07262438664336429,
+      "current_left_A": 0.4652969241142273,
+      "current_right_A": 1.8959217071533203,
+      "duty_left": -0.09094488248229027,
+      "duty_right": 0.2035527229309082,
+      "inner_encoder_delta_rad": 0.00337982177734375
+    },
+    {
+      "side": "left",
+      "start_host": "11:25:32.241",
+      "start_robot_approx": "11:25:30.080",
+      "start_s": 207.28669571876526,
+      "end_s": 209.20673179626465,
+      "duration_s": 1.9200360774993896,
+      "vx_mps": 0.027459869161248207,
+      "wz_radps": 0.07999998331069946,
+      "target_left_radps": 0.054738711565732956,
+      "target_right_radps": 0.5082989931106567,
+      "actual_left_radps": 0.0,
+      "actual_right_radps": 0.5209155678749084,
+      "imu_wz_radps": 0.08307206679249261,
+      "current_left_A": 0.8281136155128479,
+      "current_right_A": 1.6597728729248047,
+      "duty_left": -0.12715889513492584,
+      "duty_right": 0.1951342672109604,
+      "inner_encoder_delta_rad": 0.0006103515625
+    },
+    {
+      "side": "left",
+      "start_host": "11:26:11.099",
+      "start_robot_approx": "11:26:08.938",
+      "start_s": 246.14519381523132,
+      "end_s": 247.64485955238342,
+      "duration_s": 1.4996657371520996,
+      "vx_mps": 0.027029773220419884,
+      "wz_radps": 0.0800221636891365,
+      "target_left_radps": 0.04951366037130356,
+      "target_right_radps": 0.5072807669639587,
+      "actual_left_radps": 0.0,
+      "actual_right_radps": 0.5064712762832642,
+      "imu_wz_radps": 0.08082536222509162,
+      "current_left_A": 1.029085099697113,
+      "current_right_A": 1.75105482339859,
+      "duty_left": -0.13888686150312424,
+      "duty_right": 0.19773020595312119,
+      "inner_encoder_delta_rad": 5.340576171875e-05
+    },
+    {
+      "side": "left",
+      "start_host": "11:26:48.418",
+      "start_robot_approx": "11:26:46.257",
+      "start_s": 283.4637839794159,
+      "end_s": 285.863139629364,
+      "duration_s": 2.39935564994812,
+      "vx_mps": 0.02447718009352684,
+      "wz_radps": 0.07144272327423096,
+      "target_left_radps": 0.04724450781941414,
+      "target_right_radps": 0.4558762311935425,
+      "actual_left_radps": 0.0,
+      "actual_right_radps": 0.459642231464386,
+      "imu_wz_radps": 0.07145348938153809,
+      "current_left_A": 1.0091191530227661,
+      "current_right_A": 1.7598891258239746,
+      "duty_left": -0.1401890516281128,
+      "duty_right": 0.19778068363666534,
+      "inner_encoder_delta_rad": 0.0027008056640625
+    }
+  ],
+  "speed_bins": [
+    {
+      "side": "left",
+      "target_abs_min": 0.02,
+      "target_abs_max": 0.05,
+      "seconds": 30.882872819900513,
+      "median_abs_error_radps": 0.03961937129497528,
+      "near_zero_fraction": 0.9501295336787565
+    },
+    {
+      "side": "left",
+      "target_abs_min": 0.05,
+      "target_abs_max": 0.1,
+      "seconds": 71.3639817237854,
+      "median_abs_error_radps": 0.037858545780181885,
+      "near_zero_fraction": 0.3951793721973094
+    },
+    {
+      "side": "left",
+      "target_abs_min": 0.1,
+      "target_abs_max": 0.2,
+      "seconds": 55.61193656921387,
+      "median_abs_error_radps": 0.025484777987003326,
+      "near_zero_fraction": 0.009708737864077669
+    },
+    {
+      "side": "left",
+      "target_abs_min": 0.2,
+      "target_abs_max": 0.4,
+      "seconds": 67.79782891273499,
+      "median_abs_error_radps": 0.01555567979812622,
+      "near_zero_fraction": 0.0
+    },
+    {
+      "side": "left",
+      "target_abs_min": 0.4,
+      "target_abs_max": 0.7,
+      "seconds": 30.998756408691406,
+      "median_abs_error_radps": 0.010158076882362366,
+      "near_zero_fraction": 0.0
+    },
+    {
+      "side": "right",
+      "target_abs_min": 0.02,
+      "target_abs_max": 0.05,
+      "seconds": 28.213309288024902,
+      "median_abs_error_radps": 0.0422876812517643,
+      "near_zero_fraction": 0.9355067328136074
+    },
+    {
+      "side": "right",
+      "target_abs_min": 0.05,
+      "target_abs_max": 0.1,
+      "seconds": 65.24409317970276,
+      "median_abs_error_radps": 0.03735482320189476,
+      "near_zero_fraction": 0.3847332924586144
+    },
+    {
+      "side": "right",
+      "target_abs_min": 0.1,
+      "target_abs_max": 0.2,
+      "seconds": 61.396580934524536,
+      "median_abs_error_radps": 0.02239692211151123,
+      "near_zero_fraction": 0.0026058631921824105
+    },
+    {
+      "side": "right",
+      "target_abs_min": 0.2,
+      "target_abs_max": 0.4,
+      "seconds": 75.59861063957214,
+      "median_abs_error_radps": 0.012603431940078735,
+      "near_zero_fraction": 0.0
+    },
+    {
+      "side": "right",
+      "target_abs_min": 0.4,
+      "target_abs_max": 0.7,
+      "seconds": 27.896729469299316,
+      "median_abs_error_radps": 0.012420356273651123,
+      "near_zero_fraction": 0.0
+    }
+  ],
+  "gyro_reversals": [
+    {
+      "start_s": 195.4645516872406,
+      "new_sign": 1.0,
+      "raw_gyro_crossing_delay_s": 0.38501620292663574
+    },
+    {
+      "start_s": 234.30539441108704,
+      "new_sign": 1.0,
+      "raw_gyro_crossing_delay_s": 0.4521777629852295
+    },
+    {
+      "start_s": 273.14620637893677,
+      "new_sign": 1.0,
+      "raw_gyro_crossing_delay_s": 0.20554685592651367
+    },
+    {
+      "start_s": 215.5455756187439,
+      "new_sign": -1.0,
+      "raw_gyro_crossing_delay_s": 0.02926015853881836
+    },
+    {
+      "start_s": 292.24631094932556,
+      "new_sign": -1.0,
+      "raw_gyro_crossing_delay_s": 0.13973593711853027
+    }
+  ],
+  "zero_forward_turn_windows": [
+    {
+      "start_s": 17.524513721466064,
+      "end_s": 40.662365674972534,
+      "duration_s": 23.13785195350647,
+      "heading_error_start_deg": -128.00040322760537,
+      "heading_error_end_deg": -9.932825569314472
+    },
+    {
+      "start_s": 86.78003358840942,
+      "end_s": 95.42033767700195,
+      "duration_s": 8.64030408859253,
+      "heading_error_start_deg": -22.353723808872214,
+      "heading_error_end_deg": -9.765706007312982
+    },
+    {
+      "start_s": 101.68079376220703,
+      "end_s": 102.32169556617737,
+      "duration_s": 0.6409018039703369,
+      "heading_error_start_deg": 20.53201419259169,
+      "heading_error_end_deg": 26.7227767914177
+    },
+    {
+      "start_s": 103.02030158042908,
+      "end_s": 114.92143392562866,
+      "duration_s": 11.901132345199585,
+      "heading_error_start_deg": 27.15602073125606,
+      "heading_error_end_deg": 9.760680811749074
+    },
+    {
+      "start_s": 121.18095350265503,
+      "end_s": 121.72134470939636,
+      "duration_s": 0.540391206741333,
+      "heading_error_start_deg": -24.407128122027554,
+      "heading_error_end_deg": -26.858861972825835
+    },
+    {
+      "start_s": 122.48205471038818,
+      "end_s": 134.52092266082764,
+      "duration_s": 12.038867950439453,
+      "heading_error_start_deg": -27.394648153376902,
+      "heading_error_end_deg": -10.01133186345992
+    },
+    {
+      "start_s": 135.6010868549347,
+      "end_s": 143.05075216293335,
+      "duration_s": 7.449665307998657,
+      "heading_error_start_deg": -4.626900383050585,
+      "heading_error_end_deg": 37.54976645153312
+    },
+    {
+      "start_s": 150.9585258960724,
+      "end_s": 166.96006178855896,
+      "duration_s": 16.001535892486572,
+      "heading_error_start_deg": 50.01458231378143,
+      "heading_error_end_deg": 10.018260868782075
+    },
+    {
+      "start_s": 173.56111025810242,
+      "end_s": 173.89962077140808,
+      "duration_s": 0.33851051330566406,
+      "heading_error_start_deg": -22.00742755224079,
+      "heading_error_end_deg": -23.002565147901816
+    },
+    {
+      "start_s": 174.65922451019287,
+      "end_s": 185.59940314292908,
+      "duration_s": 10.940178632736206,
+      "heading_error_start_deg": -21.972861916052427,
+      "heading_error_end_deg": -9.923420032047606
+    },
+    {
+      "start_s": 194.76038265228271,
+      "end_s": 205.49979829788208,
+      "duration_s": 10.739415645599365,
+      "heading_error_start_deg": 21.530719623875193,
+      "heading_error_end_deg": 9.908697654788154
+    },
+    {
+      "start_s": 214.40169191360474,
+      "end_s": 225.061181306839,
+      "duration_s": 10.659489393234253,
+      "heading_error_start_deg": -21.92634848072263,
+      "heading_error_end_deg": -9.990422346917214
+    },
+    {
+      "start_s": 233.86116552352905,
+      "end_s": 244.60120487213135,
+      "duration_s": 10.740039348602295,
+      "heading_error_start_deg": 22.224136607565953,
+      "heading_error_end_deg": 9.985049620065602
+    },
+    {
+      "start_s": 252.36162614822388,
+      "end_s": 263.2618751525879,
+      "duration_s": 10.900249004364014,
+      "heading_error_start_deg": -21.020666644191113,
+      "heading_error_end_deg": -9.863208311518548
+    },
+    {
+      "start_s": 272.66172456741333,
+      "end_s": 282.5626120567322,
+      "duration_s": 9.900887489318848,
+      "heading_error_start_deg": 22.404322932316372,
+      "heading_error_end_deg": 9.841362831564052
+    },
+    {
+      "start_s": 291.46559381484985,
+      "end_s": 294.46595644950867,
+      "duration_s": 3.0003626346588135,
+      "heading_error_start_deg": -22.0479705179542,
+      "heading_error_end_deg": -18.693254647213706
+    }
+  ],
+  "steady_raw_gyro_over_body_cmd_median": 0.9394046766074462,
+  "far_from_goal_heading_error_deg": [
+    -23.002565147901816,
+    50.01689306032293
+  ],
+  "last_map_pose": [
+    -0.525969101509623,
+    -1.9680605396946145,
+    -1.8722240205274938
+  ],
+  "last_distance_remaining": 1.6856498718261719,
+  "max_map_transform_step_m": 0.17598806141488776,
+  "max_map_transform_step_deg": 10.198075795533505,
+  "events": [
+    [
+      1791991340.2554703,
+      "[1791991340.255470276] [j100_0949.bt_navigator] Begin navigating from current location (1.00, -0.00) to (-0.10, -1.30)"
+    ],
+    [
+      1791991363.532728,
+      "[1791991363.532727957] [j100_0949.controller_server] Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 18.2910 Hz."
+    ],
+    [
+      1791991392.6858332,
+      "[1791991392.685833216] [j100_0949.controller_server] Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.0804 Hz."
+    ],
+    [
+      1791991396.7941875,
+      "[1791991396.794187546] [j100_0949.controller_server] Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 17.1864 Hz."
+    ],
+    [
+      1791991465.9266896,
+      "[1791991465.926689625] [j100_0949.bt_navigator] Goal succeeded"
+    ],
+    [
+      1791991473.699513,
+      "[1791991473.699512959] [j100_0949.bt_navigator] Begin navigating from current location (0.07, -1.12) to (-1.57, -3.30)"
+    ],
+    [
+      1791991571.2718155,
+      "[1791991571.271815538] [j100_0949.controller_server] Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 20.0042 Hz."
+    ],
+    [
+      1791991609.2730765,
+      "[1791991609.273076534] [j100_0949.controller_server] Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.5855 Hz."
+    ],
+    [
+      1791991610.27495,
+      "[1791991610.274950027] [j100_0949.controller_server] Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.3568 Hz."
+    ],
+    [
+      1791991617.2722225,
+      "[1791991617.272222519] [j100_0949.bt_navigator] Goal canceled"
+    ],
+    [
+      1791991617.2751849,
+      "[1791991617.275184870] [j100_0949.controller_server] Cancellation was successful. Stopping the robot."
+    ]
+  ]
+}

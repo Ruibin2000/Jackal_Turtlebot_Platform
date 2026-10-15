@@ -1,0 +1,179 @@
+{
+  "source": "/home/nyu/Desktop/jackal_rosbag_repo/debug/jackal_rpp_20261014_114801",
+  "duration_s": 439.122081636,
+  "message_count": 435844,
+  "xy_goal_tolerance_m": 0.25,
+  "yaw_goal_tolerance_rad": 0.25,
+  "goals": [
+    {
+      "goal": 1,
+      "result": "SUCCEEDED",
+      "start_s": 16.989369869232178,
+      "end_s": 101.49332475662231,
+      "duration_s": 84.50212788581848,
+      "goal_x_m": -1.1070083379745483,
+      "goal_y_m": -0.05515238642692566,
+      "goal_yaw_deg": 100.7825912070429,
+      "initial_distance_m": 2.107724202809598,
+      "success_last_feedback_distance_m": 0.24170108439987423,
+      "success_last_feedback_age_s": 0.021233320236206055,
+      "success_yaw_error_deg": -14.229932797694861,
+      "first_inside_xy_tolerance_s": 87.58172178268433,
+      "pure_turn_s": 48.9921088218689,
+      "moving_vx_median_mps": 0.06,
+      "max_plan_endpoint_variation_m": 0.0
+    },
+    {
+      "goal": 2,
+      "result": "SUCCEEDED",
+      "start_s": 120.41134524345398,
+      "end_s": 173.41421151161194,
+      "duration_s": 53.00144648551941,
+      "goal_x_m": -1.9091746807098389,
+      "goal_y_m": 2.1544179916381836,
+      "goal_yaw_deg": 83.98036672121998,
+      "initial_distance_m": 2.4797845944701304,
+      "success_last_feedback_distance_m": 0.242028651059289,
+      "success_last_feedback_age_s": 0.020800113677978516,
+      "success_yaw_error_deg": -13.973486794143922,
+      "first_inside_xy_tolerance_s": 162.98321390151978,
+      "pure_turn_s": 10.250465631484985,
+      "moving_vx_median_mps": 0.06,
+      "max_plan_endpoint_variation_m": 0.0
+    },
+    {
+      "goal": 3,
+      "result": "SUCCEEDED",
+      "start_s": 186.50518894195557,
+      "end_s": 219.65661144256592,
+      "duration_s": 33.15099811553955,
+      "goal_x_m": -1.8135898113250732,
+      "goal_y_m": 3.891409158706665,
+      "goal_yaw_deg": 88.17072838084466,
+      "initial_distance_m": 1.9407631542495507,
+      "success_last_feedback_distance_m": 0.24868588196743274,
+      "success_last_feedback_age_s": 0.02024674415588379,
+      "success_yaw_error_deg": -6.226911185354768,
+      "first_inside_xy_tolerance_s": 219.58683466911316,
+      "pure_turn_s": 0.0,
+      "moving_vx_median_mps": 0.06,
+      "max_plan_endpoint_variation_m": 0.0
+    },
+    {
+      "goal": 4,
+      "result": "SUCCEEDED",
+      "start_s": 232.1170334815979,
+      "end_s": 357.6210563182831,
+      "duration_s": 125.50066637992859,
+      "goal_x_m": 0.5732846260070801,
+      "goal_y_m": 0.1977856457233429,
+      "goal_yaw_deg": -0.5273444970548247,
+      "initial_distance_m": 4.189794108151865,
+      "success_last_feedback_distance_m": 0.24056125402953535,
+      "success_last_feedback_age_s": 0.01996469497680664,
+      "success_yaw_error_deg": 14.127516805602173,
+      "first_inside_xy_tolerance_s": 345.3518874645233,
+      "pure_turn_s": 49.133087158203125,
+      "moving_vx_median_mps": 0.06,
+      "max_plan_endpoint_variation_m": 0.0
+    },
+    {
+      "goal": 5,
+      "result": "SUCCEEDED",
+      "start_s": 360.9342749118805,
+      "end_s": 417.83817172050476,
+      "duration_s": 56.90108609199524,
+      "goal_x_m": 3.592717170715332,
+      "goal_y_m": -0.29088878631591797,
+      "goal_yaw_deg": -38.47504511379782,
+      "initial_distance_m": 3.258687677179408,
+      "success_last_feedback_distance_m": 0.24874601925456832,
+      "success_last_feedback_age_s": 0.021045207977294922,
+      "success_yaw_error_deg": -11.247717261131333,
+      "first_inside_xy_tolerance_s": 417.7770183086395,
+      "pure_turn_s": 0.0,
+      "moving_vx_median_mps": 0.06,
+      "max_plan_endpoint_variation_m": 0.0
+    }
+  ],
+  "parameter_changes": {
+    "controller_server": [],
+    "velocity_smoother": [],
+    "platform_velocity_controller": []
+  },
+  "rpp_path_count": 4885,
+  "matched_rpp_commands": 4885,
+  "rpp_geometry_command_abs_error_median_p95_max": [
+    0.0,
+    0.0,
+    8.424055478409645e-05
+  ],
+  "current_local_plan_distance_median_p95_max_m": [
+    0.017587398582326916,
+    0.03500593437471314,
+    0.07662744444134767
+  ],
+  "carrot_heading_abs_deg_median_p95_max": [
+    2.513908315447814,
+    9.426731021155446,
+    23.50505137601932
+  ],
+  "tracking_yaw_rate_abs_median_p95_max": [
+    0.0075988447091457495,
+    0.032757244742599806,
+    0.07976598365484035
+  ],
+  "progress_failures": 0,
+  "recovery_runs": [],
+  "control_loop_warnings": 0,
+  "stale_command_warnings": 94,
+  "stale_command_warnings_during_navigation": 0,
+  "motor_fault_max": [
+    0.0,
+    0.0
+  ],
+  "pure_turn_windows": [
+    {
+      "goal": 1,
+      "start_s": 17.044605493545532,
+      "end_s": 52.143768310546875,
+      "duration_s": 35.09916281700134
+    },
+    {
+      "goal": 1,
+      "start_s": 87.61422729492188,
+      "end_s": 101.41533732414246,
+      "duration_s": 13.801110029220581
+    },
+    {
+      "goal": 2,
+      "start_s": 163.135155916214,
+      "end_s": 173.3356490135193,
+      "duration_s": 10.200493097305298
+    },
+    {
+      "goal": 4,
+      "start_s": 232.1713638305664,
+      "end_s": 266.6312437057495,
+      "duration_s": 34.459879875183105
+    },
+    {
+      "goal": 4,
+      "start_s": 270.1715085506439,
+      "end_s": 273.4311532974243,
+      "duration_s": 3.2596447467803955
+    },
+    {
+      "goal": 4,
+      "start_s": 345.5927402973175,
+      "end_s": 346.9927864074707,
+      "duration_s": 1.4000461101531982
+    },
+    {
+      "goal": 4,
+      "start_s": 347.8932936191559,
+      "end_s": 357.54322481155396,
+      "duration_s": 9.649931192398071
+    }
+  ]
+}

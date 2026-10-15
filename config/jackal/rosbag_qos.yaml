@@ -1,0 +1,50 @@
+# Retain latched calibration, description, map, and static transforms even
+# when the recorder joins after the publishers have started.
+/j100_0949/tf_static:
+  history: keep_last
+  depth: 100
+  reliability: reliable
+  durability: transient_local
+/j100_0949/robot_description:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local
+/j100_0949/sensors/lidar3d_0/metadata:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local
+/j100_0949/sensors/camera_0/extrinsics/depth_to_color:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local
+/j100_0949/map:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local
+# Live sensor streams: compatible with best-effort or reliable publishers.
+# This avoids making the robot wait for retransmission to a slow Wi-Fi client;
+# dropped transport samples cannot be recovered by disk compression.
+/j100_0949/sensors/lidar3d_0/points:
+  history: keep_last
+  depth: 10
+  reliability: best_effort
+  durability: volatile
+/j100_0949/sensors/lidar3d_0/scan:
+  history: keep_last
+  depth: 10
+  reliability: best_effort
+  durability: volatile
+/j100_0949/sensors/camera_0/color/image:
+  history: keep_last
+  depth: 10
+  reliability: best_effort
+  durability: volatile
+/j100_0949/sensors/camera_0/depth/image:
+  history: keep_last
+  depth: 10
+  reliability: best_effort
+  durability: volatile

@@ -1,0 +1,62 @@
+{
+  "top_level_keys": [
+    "beam_intrinsics",
+    "calibration_status",
+    "config_params",
+    "imu_data_format",
+    "imu_intrinsics",
+    "lidar_data_format",
+    "lidar_intrinsics",
+    "ouster-sdk",
+    "sensor_info",
+    "user_data",
+    "zone_monitor"
+  ],
+  "config_params": {
+    "lidar_mode": "1024x10",
+    "timestamp_mode": "TIME_FROM_INTERNAL_OSC",
+    "udp_profile_imu": "LEGACY",
+    "udp_profile_lidar": "RNG19_RFL8_SIG16_NIR16"
+  },
+  "imu_intrinsics": {
+    "imu_to_sensor_transform": [
+      1,
+      0,
+      0,
+      -2.441,
+      0,
+      1,
+      0,
+      -9.725,
+      0,
+      0,
+      1,
+      7.533,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "lidar_intrinsics": {
+    "lidar_to_sensor_transform": [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      38.195,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "beam_intrinsics": {}
+}

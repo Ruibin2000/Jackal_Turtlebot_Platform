@@ -1,0 +1,262 @@
+1791988034.663143158 [20] rosbag2_recorder: Press SPACE for pausing/resuming
+1791988034.663146496 [20] rosbag2_recorder: Event publisher thread: Started
+1791988034.679563046 [20] rosbag2_recorder: Starting recording to '/home/nyu/Desktop/jackal_rosbag_repo/debug/jackal_20261014_102639/bag'
+1791988034.680806160 [20] rosbag2_recorder: Subscribed to topic '/rosout'
+1791988034.680865765 [20] rosbag2_recorder: Listening for topics...
+1791988034.680870295 [20] rosbag2_recorder: Recording...
+1791988034.680881977 [20] rosbag2_recorder: Topics discovery started.
+1791988034.770795107 [20] rosbag2_recorder: Subscribed to topic '/parameter_events'
+1791988034.803062916 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/cmd_vel'
+1791988034.803578138 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/tf_static
+1791988034.805233955 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/tf_static'
+1791988034.809639692 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_to_pose/_action/feedback'
+1791988034.810523033 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_to_pose/_action/status'
+1791988034.816271067 [20] rosbag2_recorder: Subscribed to topic '/diagnostics'
+1791988034.817317963 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/collision_monitor_state'
+1791988034.819451809 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_through_poses/_action/feedback'
+1791988034.820754051 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/plan_smoothed'
+1791988034.822706223 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_through_poses/_action/status'
+1791988034.823279381 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/tf'
+1791988034.830319405 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/diagnostics'
+1791988034.834499121 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/spin/_action/status'
+1791988034.835308790 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/spin/_action/feedback'
+1791988034.836830854 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/cmd_vel_nav'
+1791988034.839592695 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/speed_limit'
+1791988034.840280771 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/plan'
+1791988034.841696501 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/behavior_tree_log'
+1791988034.845738888 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap_updates'
+1791988034.846884727 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/backup/_action/feedback'
+1791988034.847776651 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap_updates'
+1791988034.848951817 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/published_footprint'
+1791988034.849958420 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap_raw'
+1791988034.850986242 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/backup/_action/status'
+1791988034.851138353 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/map
+1791988034.851889133 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/map'
+1791988034.852599859 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap'
+1791988034.855130196 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap'
+1791988034.856275797 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap_raw'
+1791988034.857574701 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/voxel_grid'
+1791988034.858628988 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/published_footprint'
+1791988034.862129211 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap_raw_updates'
+1791988034.864091158 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/lidar3d_0/imu/data_raw'
+1791988034.865174532 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap_raw_updates'
+1791988034.866154909 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/cmd_vel_smoothed'
+1791988034.870139837 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_to_pose/_action/feedback'
+1791988034.871063232 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_through_poses/_action/feedback'
+1791988034.871194363 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/sensors/lidar3d_0/metadata
+1791988034.872228146 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/lidar3d_0/metadata'
+1791988034.873064995 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_to_pose/_action/status'
+1791988034.873209715 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/sensors/lidar3d_0/scan
+1791988034.874298096 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/lidar3d_0/scan'
+1791988029.860660553 [30] j100_0949.controller_manager: Overrun detected! The controller manager missed its desired rate of 50 Hz. The loop took 24.680372 ms (missed cycles : 2).
+1791988032.761741638 [30] j100_0949.controller_manager: Overrun might occur, Total time : 43272.308 us (Expected < 20000.000 us) --> Read time : 434.895 us, Update time : 140.426 us, Write time : 42696.987 us
+1791988032.761857986 [30] j100_0949.controller_manager: Overrun detected! The controller manager missed its desired rate of 50 Hz. The loop took 45.880953 ms (missed cycles : 3).
+1791988034.925625801 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_through_poses/_action/status'
+1791988034.936137438 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/wait/_action/feedback'
+1791988034.939028740 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/wait/_action/status'
+1791988034.957826376 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/imu_0/data'
+1791988034.961916924 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/cmd_vel'
+1791988034.977544308 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/motors/feedback'
+1791988034.978830576 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/imu_0/data_raw'
+1791988034.982170105 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/optimal_trajectory'
+1791988034.986088276 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/odom/filtered'
+1791988034.987754583 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/transformed_global_plan'
+1791988034.988664389 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/follow_path/_action/status'
+1791988034.989716053 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/follow_path/_action/feedback'
+1791988034.991425037 [20] rosbag2_recorder: Subscribed to topic '/trajectories'
+1791988035.000040293 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/motors/cmd_drive'
+1791988035.017030478 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/dynamic_joint_states'
+1791988035.018343449 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/cmd_vel_out'
+1791988035.019817591 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/joint_states'
+1791988035.021699190 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/odom'
+1791988033.104878902 [20] j100_0949.foxglove_bridge: Advertising new channel 207 for topic "/events/write_split"
+1791988035.779799461 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/robot_description
+1791988035.781392097 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/robot_description'
+1791988048.918309450 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988048.918850660 [20] j100_mcu: Controller [right] in mode: NONE
+1791988053.874909878 [20] j100_0949.rviz_navigation_dialog_action_client: NavigateToPose will be called using the BT Navigator's default behavior tree.
+1791988051.800890446 [20] j100_0949.bt_navigator: Begin navigating from current location (1.00, 0.00) to (0.48, -2.32)
+1791988051.823948622 [20] j100_0949.controller_server: Received a goal, begin computing control effort.
+1791988051.824222565 [30] j100_0949.controller_server: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+1791988051.824397564 [30] j100_0949.controller_server: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+1791988052.874763012 [20] j100_0949.controller_server: Passing new path to controller.
+1791988053.924765825 [20] j100_0949.controller_server: Passing new path to controller.
+1791988054.924776793 [20] j100_0949.controller_server: Passing new path to controller.
+1791988055.974766493 [20] j100_0949.controller_server: Passing new path to controller.
+1791988056.418268919 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988056.418802738 [20] j100_mcu: Controller [right] in mode: NONE
+1791988056.974776983 [20] j100_0949.controller_server: Passing new path to controller.
+1791988057.079187632 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988057.079710484 [20] j100_mcu: Controller [right] in mode: NONE
+1791988058.024768829 [20] j100_0949.controller_server: Passing new path to controller.
+1791988058.105224371 [20] j100_mcu: Controller [left] in mode: VELOCITY
+1791988058.105726480 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988058.106311798 [20] j100_mcu: Command received, but system is in a stopped/faulted state.
+1791988058.106800795 [20] j100_mcu: Controller [left] in mode: NONE
+1791988058.107297897 [20] j100_mcu: Controller [right] in mode: NONE
+1791988058.278140306 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988058.278675079 [20] j100_mcu: Controller [right] in mode: NONE
+1791988058.517838717 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988058.519806623 [20] j100_mcu: Controller [right] in mode: NONE
+1791988059.024783373 [20] j100_0949.controller_server: Passing new path to controller.
+1791988060.012422800 [40] j100_0949.bt_navigator_navigate_to_pose_rclcpp_node: Failed to get result for follow_path in node halt!
+1791988060.012689114 [20] j100_0949.bt_navigator: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+1791988060.013117552 [20] j100_0949.bt_navigator: Goal canceled
+1791988060.024768591 [20] j100_0949.controller_server: Cancellation was successful. Stopping the robot.
+1791988060.024946690 [20] j100_0949.controller_server: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+1791988060.030390739 [20] j100_0949.controller_server: Optimizer reset
+1791988062.005991220 [20] j100_mcu: Controller [left] in mode: VELOCITY
+1791988062.006467581 [20] j100_mcu: Controller [right] in mode: VELOCITY
+1791988069.652951002 [20] j100_0949.rviz_navigation_dialog_action_client: NavigateToPose will be called using the BT Navigator's default behavior tree.
+1791988067.578897715 [20] j100_0949.bt_navigator: Begin navigating from current location (1.00, 0.00) to (0.53, -2.30)
+1791988067.600471973 [20] j100_0949.controller_server: Received a goal, begin computing control effort.
+1791988068.650916576 [20] j100_0949.controller_server: Passing new path to controller.
+1791988069.700915813 [20] j100_0949.controller_server: Passing new path to controller.
+1791988070.700897217 [20] j100_0949.controller_server: Passing new path to controller.
+1791988071.750897884 [20] j100_0949.controller_server: Passing new path to controller.
+1791988072.750907660 [20] j100_0949.controller_server: Passing new path to controller.
+1791988073.800899744 [20] j100_0949.controller_server: Passing new path to controller.
+1791988074.800911665 [20] j100_0949.controller_server: Passing new path to controller.
+1791988075.850909472 [20] j100_0949.controller_server: Passing new path to controller.
+1791988076.900881767 [20] j100_0949.controller_server: Passing new path to controller.
+1791988077.900881290 [20] j100_0949.controller_server: Passing new path to controller.
+1791988078.950910330 [20] j100_0949.controller_server: Passing new path to controller.
+1791988079.950947046 [20] j100_0949.controller_server: Passing new path to controller.
+1791988081.000906467 [20] j100_0949.controller_server: Passing new path to controller.
+1791988082.000892401 [20] j100_0949.controller_server: Passing new path to controller.
+1791988083.050926924 [20] j100_0949.controller_server: Passing new path to controller.
+1791988084.050917864 [20] j100_0949.controller_server: Passing new path to controller.
+1791988085.100895166 [20] j100_0949.controller_server: Passing new path to controller.
+1791988086.100897312 [20] j100_0949.controller_server: Passing new path to controller.
+1791988087.150904417 [20] j100_0949.controller_server: Passing new path to controller.
+1791988088.150903225 [20] j100_0949.controller_server: Passing new path to controller.
+1791988089.150902987 [20] j100_0949.controller_server: Passing new path to controller.
+1791988090.200905800 [20] j100_0949.controller_server: Passing new path to controller.
+1791988091.200888872 [20] j100_0949.controller_server: Passing new path to controller.
+1791988091.251364231 [30] j100_0949.controller_server: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.8138 Hz.
+1791988092.251594543 [20] j100_0949.controller_server: Passing new path to controller.
+1791988092.279570341 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 683 X 434 at 0.050000 m/pix
+1791988092.297205687 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 683 X 434 at 0.050000 m/pix
+1791988093.251605749 [20] j100_0949.controller_server: Passing new path to controller.
+1791988094.301598549 [20] j100_0949.controller_server: Passing new path to controller.
+1791988095.275835037 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 683 X 434 at 0.050000 m/pix
+1791988095.297074080 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 683 X 434 at 0.050000 m/pix
+1791988095.301599264 [20] j100_0949.controller_server: Passing new path to controller.
+1791988096.351595163 [20] j100_0949.controller_server: Passing new path to controller.
+1791988097.351595163 [20] j100_0949.controller_server: Passing new path to controller.
+1791988098.275821209 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 683 X 453 at 0.050000 m/pix
+1791988098.297050714 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 683 X 453 at 0.050000 m/pix
+1791988098.401580334 [20] j100_0949.controller_server: Passing new path to controller.
+1791988099.401600122 [20] j100_0949.controller_server: Passing new path to controller.
+1791988100.451596022 [20] j100_0949.controller_server: Passing new path to controller.
+1791988101.501603842 [20] j100_0949.controller_server: Passing new path to controller.
+1791988102.501593351 [20] j100_0949.controller_server: Passing new path to controller.
+1791988103.551588058 [20] j100_0949.controller_server: Passing new path to controller.
+1791988104.551602364 [20] j100_0949.controller_server: Passing new path to controller.
+1791988105.601594210 [20] j100_0949.controller_server: Passing new path to controller.
+1791988106.601588249 [20] j100_0949.controller_server: Passing new path to controller.
+1791988107.651607037 [20] j100_0949.controller_server: Passing new path to controller.
+1791988108.651592970 [20] j100_0949.controller_server: Passing new path to controller.
+1791988109.701599360 [20] j100_0949.controller_server: Passing new path to controller.
+1791988110.701590538 [20] j100_0949.controller_server: Passing new path to controller.
+1791988111.751582384 [20] j100_0949.controller_server: Passing new path to controller.
+1791988112.751573801 [20] j100_0949.controller_server: Passing new path to controller.
+1791988113.801596880 [20] j100_0949.controller_server: Passing new path to controller.
+1791988114.801603556 [20] j100_0949.controller_server: Passing new path to controller.
+1791988115.851596832 [20] j100_0949.controller_server: Passing new path to controller.
+1791988116.275870800 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 683 X 454 at 0.050000 m/pix
+1791988116.297058105 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 683 X 454 at 0.050000 m/pix
+1791988116.851594925 [20] j100_0949.controller_server: Passing new path to controller.
+1791988117.901608944 [20] j100_0949.controller_server: Passing new path to controller.
+1791988118.901691914 [20] j100_0949.controller_server: Passing new path to controller.
+1791988119.951591015 [20] j100_0949.controller_server: Passing new path to controller.
+1791988121.001595020 [20] j100_0949.controller_server: Passing new path to controller.
+1791988122.001591682 [20] j100_0949.controller_server: Passing new path to controller.
+1791988123.051605701 [20] j100_0949.controller_server: Passing new path to controller.
+1791988124.051601887 [20] j100_0949.controller_server: Passing new path to controller.
+1791988125.101588964 [20] j100_0949.controller_server: Passing new path to controller.
+1791988126.101592064 [20] j100_0949.controller_server: Passing new path to controller.
+1791988127.151633978 [20] j100_0949.controller_server: Passing new path to controller.
+1791988128.151600599 [20] j100_0949.controller_server: Passing new path to controller.
+1791988129.201595068 [20] j100_0949.controller_server: Passing new path to controller.
+1791988129.675857544 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 683 X 454 at 0.050000 m/pix
+1791988130.201594591 [20] j100_0949.controller_server: Passing new path to controller.
+1791988130.296955347 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 683 X 454 at 0.050000 m/pix
+1791988131.251592875 [20] j100_0949.controller_server: Passing new path to controller.
+1791988132.251599312 [20] j100_0949.controller_server: Passing new path to controller.
+1791988133.301574707 [20] j100_0949.controller_server: Passing new path to controller.
+1791988134.275840759 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 692 X 456 at 0.050000 m/pix
+1791988134.297074556 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 692 X 456 at 0.050000 m/pix
+1791988134.301595211 [20] j100_0949.controller_server: Passing new path to controller.
+1791988135.351605892 [20] j100_0949.controller_server: Passing new path to controller.
+1791988136.401581049 [20] j100_0949.controller_server: Passing new path to controller.
+1791988137.401584864 [20] j100_0949.controller_server: Passing new path to controller.
+1791988138.451615095 [20] j100_0949.controller_server: Passing new path to controller.
+1791988139.451596022 [20] j100_0949.controller_server: Passing new path to controller.
+1791988140.501608610 [20] j100_0949.controller_server: Passing new path to controller.
+1791988141.501596928 [20] j100_0949.controller_server: Passing new path to controller.
+1791988142.551573992 [20] j100_0949.controller_server: Passing new path to controller.
+1791988143.551604986 [20] j100_0949.controller_server: Passing new path to controller.
+1791988144.601591587 [20] j100_0949.controller_server: Passing new path to controller.
+1791988145.601582766 [20] j100_0949.controller_server: Passing new path to controller.
+1791988145.654349327 [30] j100_0949.controller_server: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 18.9511 Hz.
+1791988146.654584646 [20] j100_0949.controller_server: Passing new path to controller.
+1791988147.654574156 [20] j100_0949.controller_server: Passing new path to controller.
+1791988147.687648058 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 692 X 457 at 0.050000 m/pix
+1791988148.297099352 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 692 X 457 at 0.050000 m/pix
+1791988148.704565048 [20] j100_0949.controller_server: Passing new path to controller.
+1791988149.704575777 [20] j100_0949.controller_server: Passing new path to controller.
+1791988150.675843000 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 692 X 458 at 0.050000 m/pix
+1791988150.754577398 [20] j100_0949.controller_server: Passing new path to controller.
+1791988151.297092438 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 692 X 458 at 0.050000 m/pix
+1791988151.754575253 [20] j100_0949.controller_server: Passing new path to controller.
+1791988152.804587603 [20] j100_0949.controller_server: Passing new path to controller.
+1791988153.804585934 [20] j100_0949.controller_server: Passing new path to controller.
+1791988154.854577065 [20] j100_0949.controller_server: Passing new path to controller.
+1791988155.854579449 [20] j100_0949.controller_server: Passing new path to controller.
+1791988156.904579878 [20] j100_0949.controller_server: Passing new path to controller.
+1791988157.904577732 [20] j100_0949.controller_server: Passing new path to controller.
+1791988158.954573154 [20] j100_0949.controller_server: Passing new path to controller.
+1791988159.954583168 [20] j100_0949.controller_server: Passing new path to controller.
+1791988161.004581451 [20] j100_0949.controller_server: Passing new path to controller.
+1791988162.004593611 [20] j100_0949.controller_server: Passing new path to controller.
+1791988163.054584026 [20] j100_0949.controller_server: Passing new path to controller.
+1791988164.054580212 [20] j100_0949.controller_server: Passing new path to controller.
+1791988165.104572296 [20] j100_0949.controller_server: Passing new path to controller.
+1791988166.104583740 [20] j100_0949.controller_server: Passing new path to controller.
+1791988167.154558182 [20] j100_0949.controller_server: Passing new path to controller.
+1791988167.275901556 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 692 X 459 at 0.050000 m/pix
+1791988167.297111273 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 692 X 459 at 0.050000 m/pix
+1791988168.154570580 [20] j100_0949.controller_server: Passing new path to controller.
+1791988169.204581261 [20] j100_0949.controller_server: Passing new path to controller.
+1791988170.204599142 [20] j100_0949.controller_server: Passing new path to controller.
+1791988170.275876045 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 692 X 460 at 0.050000 m/pix
+1791988170.297075510 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 692 X 460 at 0.050000 m/pix
+1791988171.254605293 [20] j100_0949.controller_server: Passing new path to controller.
+1791988172.254575491 [20] j100_0949.controller_server: Passing new path to controller.
+1791988173.304587603 [20] j100_0949.controller_server: Passing new path to controller.
+1791988174.304597378 [20] j100_0949.controller_server: Passing new path to controller.
+1791988175.354600668 [20] j100_0949.controller_server: Passing new path to controller.
+1791988176.354580164 [20] j100_0949.controller_server: Passing new path to controller.
+1791988177.404590368 [20] j100_0949.controller_server: Passing new path to controller.
+1791988178.404581070 [20] j100_0949.controller_server: Passing new path to controller.
+1791988179.454578400 [20] j100_0949.controller_server: Passing new path to controller.
+1791988180.454585552 [20] j100_0949.controller_server: Passing new path to controller.
+1791988181.504592180 [20] j100_0949.controller_server: Passing new path to controller.
+1791988181.556465864 [30] j100_0949.controller_server: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.2748 Hz.
+1791988182.506697893 [20] j100_0949.controller_server: Passing new path to controller.
+1791988183.506690264 [20] j100_0949.controller_server: Passing new path to controller.
+1791988184.556702375 [20] j100_0949.controller_server: Passing new path to controller.
+1791988184.618016481 [30] j100_0949.controller_server: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 16.3083 Hz.
+1791988185.284368277 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 692 X 462 at 0.050000 m/pix
+1791988185.297062397 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 692 X 462 at 0.050000 m/pix
+1791988185.568261147 [20] j100_0949.controller_server: Passing new path to controller.
+1791988186.618266344 [20] j100_0949.controller_server: Passing new path to controller.
+1791988187.618287086 [20] j100_0949.controller_server: Passing new path to controller.
+1791988188.668236732 [20] j100_0949.controller_server: Passing new path to controller.
+1791988189.668262243 [20] j100_0949.controller_server: Passing new path to controller.
+1791988190.718264341 [20] j100_0949.controller_server: Passing new path to controller.
+1791988191.718268394 [20] j100_0949.controller_server: Passing new path to controller.
+1791988192.768256903 [20] j100_0949.controller_server: Passing new path to controller.
+1791988193.768254519 [20] j100_0949.controller_server: Passing new path to controller.
+1791988194.818265915 [20] j100_0949.controller_server: Passing new path to controller.

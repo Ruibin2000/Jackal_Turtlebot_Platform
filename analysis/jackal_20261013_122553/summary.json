@@ -1,0 +1,264 @@
+{
+  "robot_stamp_start": 1791908799.3157523,
+  "robot_stamp_end": 1791909068.2671225,
+  "command_window_s": 268.9513702392578,
+  "map_pose_start": [
+    1.2317920070568338,
+    0.0465903321174026,
+    0.24936161561096615
+  ],
+  "map_pose_end": [
+    2.9684631715776435,
+    0.049250240804965095,
+    -2.8884772011163546
+  ],
+  "map_yaw_min_max_deg": [
+    -179.97615824429647,
+    179.98826741839707
+  ],
+  "positive_heading_peaks_seconds": [
+    115.83421421051025,
+    154.8341770172119,
+    193.83413982391357,
+    253.38408303260803
+  ],
+  "negative_heading_peaks_seconds": [
+    98.38423085212708,
+    135.6341953277588,
+    175.98415684700012,
+    213.0341215133667
+  ],
+  "command_vx_range": [
+    0.0,
+    0.12952156364917755
+  ],
+  "command_wz_range": [
+    -0.1139879822731018,
+    0.1120288074016571
+  ],
+  "linear_command_zero_fraction": 0.6358566329565735,
+  "commanded_reverse_seconds": 0.0,
+  "progress_failure_count_in_bag": 4,
+  "recovery_spin_or_backup_in_bag": 1,
+  "velocity_chain": [
+    {
+      "from": "cmd_vel_nav",
+      "to": "cmd_vel_smoothed",
+      "mean_abs_diff_vx_wz": [
+        0.0001019199586726596,
+        0.0003233088182519954
+      ]
+    },
+    {
+      "from": "cmd_vel_smoothed",
+      "to": "cmd_vel",
+      "mean_abs_diff_vx_wz": [
+        0.0,
+        0.00020300416418798331
+      ]
+    },
+    {
+      "from": "platform/cmd_vel_out",
+      "to": "platform/odom",
+      "mean_abs_diff_vx_wz": [
+        0.0010844882441715642,
+        0.008808567348747721
+      ]
+    }
+  ],
+  "imu_odom_yaw_correlation_when_rotating": 0.9966821748218058,
+  "max_map_correction_translation_m": 1.0803152527827788,
+  "max_map_correction_yaw_deg": 15.797019369551991,
+  "forward_intervals": [
+    {
+      "start_s": 0.23361682891845703,
+      "end_s": 0.834449291229248,
+      "yaw_start_deg": 14.296743717767503,
+      "yaw_end_deg": 14.415059978915755,
+      "sample_heading_error_start_deg": -12.953547680882368,
+      "sample_heading_error_end_deg": -13.08668280503652,
+      "median_cmd_wz_radps": 0.0009225444518961012,
+      "displacement_m": 0.0006207097744153402
+    },
+    {
+      "start_s": 1.4783210754394531,
+      "end_s": 49.624706506729126,
+      "yaw_start_deg": 14.521199508315147,
+      "yaw_end_deg": -14.380917243932732,
+      "sample_heading_error_start_deg": -13.205483534576434,
+      "sample_heading_error_end_deg": -8.107682823609004,
+      "median_cmd_wz_radps": -0.011008022353053093,
+      "displacement_m": 2.8540788733992324
+    },
+    {
+      "start_s": 91.15792179107666,
+      "end_s": 96.00802087783813,
+      "yaw_start_deg": -173.74239728840556,
+      "yaw_end_deg": 158.10257944667433,
+      "sample_heading_error_start_deg": -9.371408045402912,
+      "sample_heading_error_end_deg": 21.080917387836813,
+      "median_cmd_wz_radps": -0.09760989621281624,
+      "displacement_m": 0.11405793907299819
+    },
+    {
+      "start_s": 110.197674036026,
+      "end_s": 113.45701956748962,
+      "yaw_start_deg": 170.53111753775602,
+      "yaw_end_deg": -158.37149271767692,
+      "sample_heading_error_start_deg": 9.141245478825233,
+      "sample_heading_error_end_deg": -25.21675046947521,
+      "median_cmd_wz_radps": 0.08379101008176804,
+      "displacement_m": 0.10535572762876425
+    },
+    {
+      "start_s": 127.0128059387207,
+      "end_s": 130.5530126094818,
+      "yaw_start_deg": -167.39228012037333,
+      "yaw_end_deg": 173.6037214963833,
+      "sample_heading_error_start_deg": -9.472152619786758,
+      "sample_heading_error_end_deg": 9.405305071569986,
+      "median_cmd_wz_radps": -0.08820884302258492,
+      "displacement_m": 0.07895592791033629
+    },
+    {
+      "start_s": 130.79960322380066,
+      "end_s": 135.80598163604736,
+      "yaw_start_deg": 172.4532799064855,
+      "yaw_end_deg": 159.85802178525998,
+      "sample_heading_error_start_deg": 10.683521317427006,
+      "sample_heading_error_end_deg": 21.301914827478647,
+      "median_cmd_wz_radps": -0.044048821553587914,
+      "displacement_m": 0.09050981820967988
+    },
+    {
+      "start_s": 147.44645619392395,
+      "end_s": 154.26772928237915,
+      "yaw_start_deg": 172.4213526787715,
+      "yaw_end_deg": -152.0433778471812,
+      "sample_heading_error_start_deg": 9.188830392662485,
+      "sample_heading_error_end_deg": -25.70022478875993,
+      "median_cmd_wz_radps": 0.0888608992099762,
+      "displacement_m": 0.1712221261890375
+    },
+    {
+      "start_s": 167.81458044052124,
+      "end_s": 173.76350951194763,
+      "yaw_start_deg": -169.57033912358358,
+      "yaw_end_deg": 157.7964519888004,
+      "sample_heading_error_start_deg": -8.292922193470414,
+      "sample_heading_error_end_deg": 23.382562085327198,
+      "median_cmd_wz_radps": -0.09388687834143639,
+      "displacement_m": 0.1404233306938059
+    },
+    {
+      "start_s": 187.44826912879944,
+      "end_s": 192.2660517692566,
+      "yaw_start_deg": 172.24971029241854,
+      "yaw_end_deg": -160.87046941432027,
+      "sample_heading_error_start_deg": 9.391115903381289,
+      "sample_heading_error_end_deg": -21.251060470450938,
+      "median_cmd_wz_radps": 0.09008007124066353,
+      "displacement_m": 0.10965001142191384
+    },
+    {
+      "start_s": 205.1494174003601,
+      "end_s": 212.79009413719177,
+      "yaw_start_deg": -170.21129677951586,
+      "yaw_end_deg": 159.71858187166086,
+      "sample_heading_error_start_deg": -9.432593280541,
+      "sample_heading_error_end_deg": 23.087484597057262,
+      "median_cmd_wz_radps": -0.06867710128426552,
+      "displacement_m": 0.19873853602036562
+    },
+    {
+      "start_s": 224.7525372505188,
+      "end_s": 230.1960573196411,
+      "yaw_start_deg": 172.6625789997723,
+      "yaw_end_deg": -159.29219344376116,
+      "sample_heading_error_start_deg": 8.558040252857685,
+      "sample_heading_error_end_deg": -21.554783567953585,
+      "median_cmd_wz_radps": 0.09373821690678596,
+      "displacement_m": 0.17069627839273005
+    }
+  ],
+  "yaw_wrap_note": "Raw yaw extrema cross +/-180 degrees; use unwrapped plot or wrapped path-heading error.",
+  "path_heading_error_deg_100_to_235s": [
+    -29.093028198951938,
+    27.90267601454842
+  ],
+  "rough_base_yaw_fit": {
+    "rmse_radps": 0.01185365,
+    "lag_seconds": 0.22,
+    "gain": 0.9484784
+  },
+  "first_return_progress_failure": {
+    "elapsed_s": 30.023350477218628,
+    "odom_displacement_m": 0.12250425485102237,
+    "odom_yaw_change_deg": -140.25763899929518
+  },
+  "parameter_before_after_equal": {
+    "controller_server": true,
+    "velocity_smoother": true,
+    "local_costmap__local_costmap": "after snapshot unavailable",
+    "global_costmap__global_costmap": "after snapshot unavailable"
+  },
+  "overshoot_example": [
+    {
+      "relative_s": 91,
+      "heading_error_deg": -10.084398967283198,
+      "command_vx": 0.0,
+      "command_wz": -0.1,
+      "actual_wz": -0.10204723514814629
+    },
+    {
+      "relative_s": 92,
+      "heading_error_deg": -4.638613567780528,
+      "command_vx": 0.014566976577043533,
+      "command_wz": -0.09313683956861496,
+      "actual_wz": -0.09415811966005212
+    },
+    {
+      "relative_s": 93,
+      "heading_error_deg": 1.0377919870916894,
+      "command_vx": 0.027071084827184677,
+      "command_wz": -0.09067772328853607,
+      "actual_wz": -0.09361845827039757
+    },
+    {
+      "relative_s": 94,
+      "heading_error_deg": 7.216931238785217,
+      "command_vx": 0.03211573511362076,
+      "command_wz": -0.10147206485271454,
+      "actual_wz": -0.1080102275141831
+    },
+    {
+      "relative_s": 95,
+      "heading_error_deg": 14.483068533214452,
+      "command_vx": 0.029881590977311134,
+      "command_wz": -0.10298610478639603,
+      "actual_wz": -0.1080497290599989
+    },
+    {
+      "relative_s": 96,
+      "heading_error_deg": 21.080917387836813,
+      "command_vx": 0.028499484062194824,
+      "command_wz": -0.09581064432859421,
+      "actual_wz": -0.09953356559328799
+    },
+    {
+      "relative_s": 97,
+      "heading_error_deg": 24.676448422480906,
+      "command_vx": 0.0,
+      "command_wz": -0.012094627859479505,
+      "actual_wz": -0.027094627859479505
+    },
+    {
+      "relative_s": 98,
+      "heading_error_deg": 25.146299370213164,
+      "command_vx": 0.0,
+      "command_wz": 0.013083769749390682,
+      "actual_wz": -0.0019162302506093181
+    }
+  ],
+  "forward_interval_note": "Positive linear speed indicates MPPI tracking in this setup. Reconstructed path-heading error is not internal telemetry."
+}

@@ -1,0 +1,216 @@
+{
+  "bag": "/home/nyu/Desktop/jackal_rosbag_repo/recording/jackal_20261014_143642",
+  "map": {
+    "frame": "map",
+    "stamp": 1792004052.4941401,
+    "receipt": 1792004054.3170233,
+    "resolution": 0.05000000074505806,
+    "width": 1318,
+    "height": 447,
+    "origin": [
+      -18.919004643045408,
+      -13.744708048874186,
+      0.0
+    ]
+  },
+  "trajectory_source": "map -> odom_start -> odom -> base_link",
+  "method": "Planar composition of time-interpolated TF; latest receipt for duplicate stamps; no extrapolation",
+  "meaning": "Recorded online localization history over the last recorded SLAM map; not ground truth, not a planned path, not final pose-graph reoptimization",
+  "samples": 52268,
+  "duration_s": 1045.3597416877747,
+  "start_map_xy_m": [
+    0.9999753004396269,
+    2.4776352307576124e-06
+  ],
+  "end_map_xy_m": [
+    21.271607496565736,
+    -0.7034330938151725
+  ],
+  "trajectory_length_m": 46.20156871129962,
+  "length_note": "Includes online SLAM corrections and localization noise",
+  "max_sample_step_m": 0.1146852422337835,
+  "max_odom_tf_gap_s": 0.039997100830078125,
+  "max_map_tf_gap_s": 0.10217857360839844,
+  "slam_pose_crosscheck_count": 406,
+  "slam_pose_crosscheck_median_p95_max_m": [
+    0.010000000018761482,
+    0.0200000004446389,
+    0.08944271540490324
+  ],
+  "goal_request_count": 11,
+  "goal_source": {
+    "original_path": "/home/nyu/.ros/log/rviz2_2785433_1792002934425.log",
+    "copy": "rviz_session.log",
+    "sha256": "e65c01eed000b06134d3f923f81fd375ae314629503bcf716dfda8620cd8e621",
+    "event_meaning": "RViz NavigateToPose request, before async_send_goal; not server acceptance",
+    "source_reference": "https://github.com/ros-navigation/navigation2/blob/1.3.12/nav2_rviz_plugins/src/nav2_panel.cpp#L1186-L1225"
+  },
+  "goal_boundary_meaning": "RViz request intervals, including any waiting after completion; not confirmed active-goal intervals",
+  "goal_positions": "Approximate: nearest TF Host receipt to RViz log time; not target coordinates",
+  "goal_alignment_max_abs_receipt_error_s": 0.00978231430053711,
+  "tf_receipt_minus_header_s_median_p95": [
+    1.3857927322387695,
+    1.3971723556518554
+  ],
+  "goal_events": [
+    {
+      "goal_id": "G1",
+      "request_host_unix_s": 1792003020.5515854,
+      "request_host_local": "2026-10-14T14:37:00.551-04:00",
+      "elapsed_host_s": 11.50590705871582,
+      "trajectory_index": 577,
+      "matched_tf_header_unix_s": 1792003019.1707852,
+      "matched_tf_receipt_unix_s": 1792003020.54381,
+      "receipt_match_error_s": -0.007775545120239258,
+      "robot_map_x_m": 0.9999700472089347,
+      "robot_map_y_m": -1.2302197465174913e-05,
+      "source_line": 9
+    },
+    {
+      "goal_id": "G2",
+      "request_host_unix_s": 1792003099.6664357,
+      "request_host_local": "2026-10-14T14:38:19.666-04:00",
+      "elapsed_host_s": 90.62075734138489,
+      "trajectory_index": 4533,
+      "matched_tf_header_unix_s": 1792003098.2908216,
+      "matched_tf_receipt_unix_s": 1792003099.6653368,
+      "receipt_match_error_s": -0.0010988712310791016,
+      "robot_map_x_m": 3.417561019886633,
+      "robot_map_y_m": 0.14904217539962572,
+      "source_line": 13
+    },
+    {
+      "goal_id": "G3",
+      "request_host_unix_s": 1792003182.9861975,
+      "request_host_local": "2026-10-14T14:39:42.986-04:00",
+      "elapsed_host_s": 173.94051909446716,
+      "trajectory_index": 8699,
+      "matched_tf_header_unix_s": 1792003181.6107187,
+      "matched_tf_receipt_unix_s": 1792003182.9869294,
+      "receipt_match_error_s": 0.0007319450378417969,
+      "robot_map_x_m": 5.8368696164336455,
+      "robot_map_y_m": 0.16022141963666317,
+      "source_line": 16
+    },
+    {
+      "goal_id": "G4",
+      "request_host_unix_s": 1792003273.5569506,
+      "request_host_local": "2026-10-14T14:41:13.556-04:00",
+      "elapsed_host_s": 264.51127219200134,
+      "trajectory_index": 13227,
+      "matched_tf_header_unix_s": 1792003272.170691,
+      "matched_tf_receipt_unix_s": 1792003273.5507314,
+      "receipt_match_error_s": -0.006219148635864258,
+      "robot_map_x_m": 10.098667398570969,
+      "robot_map_y_m": 0.17103859835537638,
+      "source_line": 30
+    },
+    {
+      "goal_id": "G5",
+      "request_host_unix_s": 1792003398.2563639,
+      "request_host_local": "2026-10-14T14:43:18.256-04:00",
+      "elapsed_host_s": 389.2106854915619,
+      "trajectory_index": 19461,
+      "matched_tf_header_unix_s": 1792003396.8708227,
+      "matched_tf_receipt_unix_s": 1792003398.2521245,
+      "receipt_match_error_s": -0.004239320755004883,
+      "robot_map_x_m": 16.543541707657145,
+      "robot_map_y_m": -1.425973413257516,
+      "source_line": 52
+    },
+    {
+      "goal_id": "G6",
+      "request_host_unix_s": 1792003460.9230044,
+      "request_host_local": "2026-10-14T14:44:20.923-04:00",
+      "elapsed_host_s": 451.8773260116577,
+      "trajectory_index": 22594,
+      "matched_tf_header_unix_s": 1792003459.5307302,
+      "matched_tf_receipt_unix_s": 1792003460.9154482,
+      "receipt_match_error_s": -0.00755620002746582,
+      "robot_map_x_m": 19.413276287668786,
+      "robot_map_y_m": -1.7977499875181175,
+      "source_line": 61
+    },
+    {
+      "goal_id": "G7",
+      "request_host_unix_s": 1792003527.3808434,
+      "request_host_local": "2026-10-14T14:45:27.380-04:00",
+      "elapsed_host_s": 518.3351650238037,
+      "trajectory_index": 25917,
+      "matched_tf_header_unix_s": 1792003525.9906042,
+      "matched_tf_receipt_unix_s": 1792003527.3757155,
+      "receipt_match_error_s": -0.005127906799316406,
+      "robot_map_x_m": 23.163555229066763,
+      "robot_map_y_m": -1.8637553591527616,
+      "source_line": 74
+    },
+    {
+      "goal_id": "G8",
+      "request_host_unix_s": 1792003644.31815,
+      "request_host_local": "2026-10-14T14:47:24.318-04:00",
+      "elapsed_host_s": 635.2724716663361,
+      "trajectory_index": 31764,
+      "matched_tf_header_unix_s": 1792003642.930747,
+      "matched_tf_receipt_unix_s": 1792003644.3184507,
+      "receipt_match_error_s": 0.0003006458282470703,
+      "robot_map_x_m": 27.123686471300218,
+      "robot_map_y_m": -1.4595371873086804,
+      "source_line": 80
+    },
+    {
+      "goal_id": "G9",
+      "request_host_unix_s": 1792003702.1506279,
+      "request_host_local": "2026-10-14T14:48:22.150-04:00",
+      "elapsed_host_s": 693.1049494743347,
+      "trajectory_index": 34655,
+      "matched_tf_header_unix_s": 1792003700.7507198,
+      "matched_tf_receipt_unix_s": 1792003702.1408455,
+      "receipt_match_error_s": -0.00978231430053711,
+      "robot_map_x_m": 27.3412828002488,
+      "robot_map_y_m": 1.561289552946301,
+      "source_line": 81
+    },
+    {
+      "goal_id": "G10",
+      "request_host_unix_s": 1792003755.0506687,
+      "request_host_local": "2026-10-14T14:49:15.050-04:00",
+      "elapsed_host_s": 746.0049903392792,
+      "trajectory_index": 37300,
+      "matched_tf_header_unix_s": 1792003753.6507173,
+      "matched_tf_receipt_unix_s": 1792003755.0418124,
+      "receipt_match_error_s": -0.00885629653930664,
+      "robot_map_x_m": 27.17580823162997,
+      "robot_map_y_m": 3.1836867244666998,
+      "source_line": 82
+    },
+    {
+      "goal_id": "G11",
+      "request_host_unix_s": 1792003854.7185006,
+      "request_host_local": "2026-10-14T14:50:54.718-04:00",
+      "elapsed_host_s": 845.6728222370148,
+      "trajectory_index": 42284,
+      "matched_tf_header_unix_s": 1792003853.3307157,
+      "matched_tf_receipt_unix_s": 1792003854.7253838,
+      "receipt_match_error_s": 0.006883144378662109,
+      "robot_map_x_m": 27.2921448447106,
+      "robot_map_y_m": -0.49988769449830706,
+      "source_line": 83
+    }
+  ],
+  "outputs": [
+    "map_and_path.png",
+    "map_and_path.pdf",
+    "path_detail.png",
+    "path_detail.pdf",
+    "map_only.png",
+    "map_only.pdf",
+    "trajectory_map.csv",
+    "map_and_path_time.png",
+    "map_and_path_time.pdf",
+    "path_detail_time.png",
+    "path_detail_time.pdf",
+    "goal_requests.csv",
+    "trajectory_by_goal.csv",
+    "README.md"
+  ]
+}

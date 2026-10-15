@@ -1,0 +1,11 @@
+{
+  "stall_window_s": [
+    125,
+    145
+  ],
+  "nav_median_vx_mps": 3.835059033008292e-06,
+  "nav_median_wz_radps": 0.0016070998972281814,
+  "zero_motor_command_fraction": 0.716,
+  "both_calculated_wheel_speeds_below_001_fraction": 0.716,
+  "pure_turn_angular_speed_for_wheel_001": 0.003478970863619017
+}

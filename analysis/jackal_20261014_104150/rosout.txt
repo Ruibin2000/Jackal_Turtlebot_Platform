@@ -1,0 +1,273 @@
+1791988953.388694763 [20] rosbag2_recorder: Press SPACE for pausing/resuming
+1791988953.388843060 [20] rosbag2_recorder: Event publisher thread: Started
+1791988953.392747402 [20] rosbag2_recorder: Starting recording to '/home/nyu/Desktop/jackal_rosbag_repo/debug/jackal_20261014_104150/bag'
+1791988953.394289494 [20] rosbag2_recorder: Subscribed to topic '/rosout'
+1791988953.394348621 [20] rosbag2_recorder: Listening for topics...
+1791988953.394352913 [20] rosbag2_recorder: Recording...
+1791988953.394515991 [20] rosbag2_recorder: Topics discovery started.
+1791988953.499579430 [20] rosbag2_recorder: Subscribed to topic '/parameter_events'
+1791988953.552160025 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/tf_static
+1791988953.555477858 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/tf_static'
+1791988953.555805922 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/sensors/lidar3d_0/metadata
+1791988953.557590008 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/lidar3d_0/metadata'
+1791988953.563544035 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/tf'
+1791988953.571607113 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/diagnostics'
+1791988941.947010994 [40] j100_0949.ekf_node: Failed to meet update rate! Took 0.036519440999999999709seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+1791988945.813382149 [30] j100_0949.ekf_node.rclcpp: failed to send response to /j100_0949/ekf_node/list_parameters (timeout): client will not receive response, at ./src/rmw_response.cpp:153, at ./src/rcl/service.c:400
+1791988951.440039396 [40] j100_0949.ekf_node: Failed to meet update rate! Took 0.028414431999999999884seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+1791988942.816051006 [30] j100_0949.controller_manager: Overrun detected! The controller manager missed its desired rate of 50 Hz. The loop took 20.072966 ms (missed cycles : 2).
+1791988944.742307663 [30] j100_0949.controller_manager: Overrun might occur, Total time : 26226.517 us (Expected < 20000.000 us) --> Read time : 362.093 us, Update time : 131.248 us, Write time : 25733.176 us
+1791988944.742485285 [30] j100_0949.controller_manager: Overrun detected! The controller manager missed its desired rate of 50 Hz. The loop took 26.507684 ms (missed cycles : 2).
+1791988953.649461031 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/cmd_vel'
+1791988953.652240992 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/collision_monitor_state'
+1791988953.655149698 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/motors/feedback'
+1791988953.656937838 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/imu_0/data_raw'
+1791988953.659525394 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/wait/_action/feedback'
+1791988953.664704561 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/plan_smoothed'
+1791988953.666419744 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/wait/_action/status'
+1791988953.669890642 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/plan'
+1791988953.670707226 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/spin/_action/status'
+1791988953.676628828 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/cmd_vel_smoothed'
+1791988953.678159714 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/cmd_vel_nav'
+1791988953.679578304 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/lidar3d_0/imu/data_raw'
+1791988953.681052446 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/backup/_action/feedback'
+1791988953.682329655 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/speed_limit'
+1791988953.683567762 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/backup/_action/status'
+1791988953.683711767 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/sensors/lidar3d_0/scan
+1791988953.685678720 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/lidar3d_0/scan'
+1791988953.686993122 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/spin/_action/feedback'
+1791988953.689520836 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/odom/filtered'
+1791988953.690893173 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_through_poses/_action/status'
+1791988953.692400217 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_through_poses/_action/feedback'
+1791988953.694052458 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/published_footprint'
+1791988953.695816755 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap'
+1791988953.697127581 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_to_pose/_action/status'
+1791988953.700962782 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_to_pose/_action/feedback'
+1791988953.702073336 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_through_poses/_action/feedback'
+1791988953.703315496 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_to_pose/_action/feedback'
+1791988953.704393387 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap_raw'
+1791988953.705882788 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/compute_path_through_poses/_action/status'
+1791988953.705975533 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/map
+1791988953.706636190 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/map'
+1791988953.707518339 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap_raw_updates'
+1791988953.708524704 [20] rosbag2_recorder: Subscribed to topic '/diagnostics'
+1791988953.710785627 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/global_costmap/costmap_updates'
+1791988953.711955309 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/navigate_to_pose/_action/status'
+1791988953.712062597 [20] rosbag2_recorder: Overriding subscription profile for /j100_0949/robot_description
+1791988953.713067770 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/robot_description'
+1791988953.715742111 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap_raw_updates'
+1791988953.716815233 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/voxel_grid'
+1791988953.718013525 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap'
+1791988953.719122887 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/optimal_trajectory'
+1791988953.720043898 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/transformed_global_plan'
+1791988953.721822023 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/follow_path/_action/status'
+1791988953.722907305 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/published_footprint'
+1791988953.724402189 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap_raw'
+1791988953.725186110 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/follow_path/_action/feedback'
+1791988953.727424383 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/local_costmap/costmap_updates'
+1791988953.730531454 [20] rosbag2_recorder: Subscribed to topic '/trajectories'
+1791988953.834077597 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/behavior_tree_log'
+1791988951.808128357 [20] j100_0949.foxglove_bridge: Advertising new channel 327 for topic "/events/write_split"
+1791988954.509764194 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/sensors/imu_0/data'
+1791988954.514141560 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/cmd_vel'
+1791988954.519440174 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/motors/cmd_drive'
+1791988954.521150589 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/odom'
+1791988954.527850389 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/dynamic_joint_states'
+1791988954.530323505 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/cmd_vel_out'
+1791988954.531268835 [20] rosbag2_recorder: Subscribed to topic '/j100_0949/platform/joint_states'
+1791988962.084588528 [20] j100_0949.rviz_navigation_dialog_action_client: NavigateToPose will be called using the BT Navigator's default behavior tree.
+1791988959.990198374 [20] j100_0949.bt_navigator: Begin navigating from current location (1.00, -0.00) to (2.29, 0.03)
+1791988960.011904955 [20] j100_0949.controller_server: Received a goal, begin computing control effort.
+1791988960.012037992 [30] j100_0949.controller_server: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+1791988960.012099028 [30] j100_0949.controller_server: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+1791988961.062282562 [20] j100_0949.controller_server: Passing new path to controller.
+1791988962.062284470 [20] j100_0949.controller_server: Passing new path to controller.
+1791988963.112303972 [20] j100_0949.controller_server: Passing new path to controller.
+1791988964.112283707 [20] j100_0949.controller_server: Passing new path to controller.
+1791988965.162287235 [20] j100_0949.controller_server: Passing new path to controller.
+1791988966.162282228 [20] j100_0949.controller_server: Passing new path to controller.
+1791988967.138305664 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 447 X 567 at 0.050000 m/pix
+1791988967.212286472 [20] j100_0949.controller_server: Passing new path to controller.
+1791988967.561032295 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 447 X 567 at 0.050000 m/pix
+1791988968.212289572 [20] j100_0949.controller_server: Passing new path to controller.
+1791988969.262286663 [20] j100_0949.controller_server: Passing new path to controller.
+1791988970.138276577 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 447 X 573 at 0.050000 m/pix
+1791988970.262286186 [20] j100_0949.controller_server: Passing new path to controller.
+1791988970.561059475 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 447 X 573 at 0.050000 m/pix
+1791988971.312284470 [20] j100_0949.controller_server: Passing new path to controller.
+1791988972.362282753 [20] j100_0949.controller_server: Passing new path to controller.
+1791988973.362282991 [20] j100_0949.controller_server: Passing new path to controller.
+1791988974.412294865 [20] j100_0949.controller_server: Passing new path to controller.
+1791988974.738309145 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 447 X 574 at 0.050000 m/pix
+1791988975.412275553 [20] j100_0949.controller_server: Passing new path to controller.
+1791988975.561078072 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 447 X 574 at 0.050000 m/pix
+1791988976.138267040 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 448 X 609 at 0.050000 m/pix
+1791988976.462268591 [20] j100_0949.controller_server: Passing new path to controller.
+1791988976.561092138 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 448 X 609 at 0.050000 m/pix
+1791988977.462276697 [20] j100_0949.controller_server: Passing new path to controller.
+1791988978.512296200 [20] j100_0949.controller_server: Passing new path to controller.
+1791988979.512286663 [20] j100_0949.controller_server: Passing new path to controller.
+1791988980.562286854 [20] j100_0949.controller_server: Passing new path to controller.
+1791988981.562293053 [20] j100_0949.controller_server: Passing new path to controller.
+1791988982.612284899 [20] j100_0949.controller_server: Passing new path to controller.
+1791988983.662263155 [20] j100_0949.controller_server: Passing new path to controller.
+1791988984.662261248 [20] j100_0949.controller_server: Passing new path to controller.
+1791988985.712289333 [20] j100_0949.controller_server: Passing new path to controller.
+1791988986.712278128 [20] j100_0949.controller_server: Passing new path to controller.
+1791988987.762284040 [20] j100_0949.controller_server: Passing new path to controller.
+1791988988.762279987 [20] j100_0949.controller_server: Passing new path to controller.
+1791988989.812286854 [20] j100_0949.controller_server: Passing new path to controller.
+1791988990.812287569 [20] j100_0949.controller_server: Passing new path to controller.
+1791988991.862267017 [20] j100_0949.controller_server: Passing new path to controller.
+1791988992.862274647 [20] j100_0949.controller_server: Passing new path to controller.
+1791988993.912274122 [20] j100_0949.controller_server: Passing new path to controller.
+1791988994.912287951 [20] j100_0949.controller_server: Passing new path to controller.
+1791988995.962282181 [20] j100_0949.controller_server: Passing new path to controller.
+1791988996.962285519 [20] j100_0949.controller_server: Passing new path to controller.
+1791988998.012279749 [20] j100_0949.controller_server: Passing new path to controller.
+1791988999.012272596 [20] j100_0949.controller_server: Passing new path to controller.
+1791989000.062279940 [20] j100_0949.controller_server: Passing new path to controller.
+1791989001.062264204 [20] j100_0949.controller_server: Passing new path to controller.
+1791989002.112287521 [20] j100_0949.controller_server: Passing new path to controller.
+1791989003.112264633 [20] j100_0949.controller_server: Passing new path to controller.
+1791989004.162283897 [20] j100_0949.controller_server: Passing new path to controller.
+1791989005.162292242 [20] j100_0949.controller_server: Passing new path to controller.
+1791989006.212288380 [20] j100_0949.controller_server: Passing new path to controller.
+1791989007.212280273 [20] j100_0949.controller_server: Passing new path to controller.
+1791989010.331153631 [20] j100_0949.rviz_navigation_dialog_action_client: NavigateToPose will be called using the BT Navigator's default behavior tree.
+1791989008.241056919 [20] j100_0949.bt_navigator: Received goal preemption request
+1791989008.241806984 [20] j100_0949.bt_navigator: Begin navigating from current location (2.36, -0.24) to (0.79, -1.39)
+1791989008.262288809 [20] j100_0949.controller_server: Passing new path to controller.
+1791989009.262279749 [20] j100_0949.controller_server: Passing new path to controller.
+1791989010.312284470 [20] j100_0949.controller_server: Passing new path to controller.
+1791989011.312290668 [20] j100_0949.controller_server: Passing new path to controller.
+1791989012.362281322 [20] j100_0949.controller_server: Passing new path to controller.
+1791989013.362292528 [20] j100_0949.controller_server: Passing new path to controller.
+1791989014.412287951 [20] j100_0949.controller_server: Passing new path to controller.
+1791989015.412283897 [20] j100_0949.controller_server: Passing new path to controller.
+1791989016.462284803 [20] j100_0949.controller_server: Passing new path to controller.
+1791989017.462324381 [20] j100_0949.controller_server: Passing new path to controller.
+1791989018.512292862 [20] j100_0949.controller_server: Passing new path to controller.
+1791989019.512296915 [20] j100_0949.controller_server: Passing new path to controller.
+1791989020.562279701 [20] j100_0949.controller_server: Passing new path to controller.
+1791989021.562276602 [20] j100_0949.controller_server: Passing new path to controller.
+1791989022.612273693 [20] j100_0949.controller_server: Passing new path to controller.
+1791989023.612298727 [20] j100_0949.controller_server: Passing new path to controller.
+1791989024.662286997 [20] j100_0949.controller_server: Passing new path to controller.
+1791989025.662281752 [20] j100_0949.controller_server: Passing new path to controller.
+1791989026.712282896 [20] j100_0949.controller_server: Passing new path to controller.
+1791989027.712295532 [20] j100_0949.controller_server: Passing new path to controller.
+1791989028.762281895 [20] j100_0949.controller_server: Passing new path to controller.
+1791989029.762302637 [20] j100_0949.controller_server: Passing new path to controller.
+1791989030.812299490 [20] j100_0949.controller_server: Passing new path to controller.
+1791989031.812291145 [20] j100_0949.controller_server: Passing new path to controller.
+1791989032.862262487 [20] j100_0949.controller_server: Passing new path to controller.
+1791989033.862289190 [20] j100_0949.controller_server: Passing new path to controller.
+1791989034.912280083 [20] j100_0949.controller_server: Passing new path to controller.
+1791989035.912282467 [20] j100_0949.controller_server: Passing new path to controller.
+1791989036.962320328 [20] j100_0949.controller_server: Passing new path to controller.
+1791989037.962287188 [20] j100_0949.controller_server: Passing new path to controller.
+1791989038.962288380 [20] j100_0949.controller_server: Passing new path to controller.
+1791989040.012290239 [20] j100_0949.controller_server: Passing new path to controller.
+1791989041.062273979 [20] j100_0949.controller_server: Passing new path to controller.
+1791989042.062309265 [20] j100_0949.controller_server: Passing new path to controller.
+1791989043.112283707 [20] j100_0949.controller_server: Passing new path to controller.
+1791989044.112288237 [20] j100_0949.controller_server: Passing new path to controller.
+1791989045.162295341 [20] j100_0949.controller_server: Passing new path to controller.
+1791989046.162278175 [20] j100_0949.controller_server: Passing new path to controller.
+1791989047.212295055 [20] j100_0949.controller_server: Passing new path to controller.
+1791989048.212277174 [20] j100_0949.controller_server: Passing new path to controller.
+1791989049.262280703 [20] j100_0949.controller_server: Passing new path to controller.
+1791989050.262283802 [20] j100_0949.controller_server: Passing new path to controller.
+1791989051.312286377 [20] j100_0949.controller_server: Passing new path to controller.
+1791989052.312287092 [20] j100_0949.controller_server: Passing new path to controller.
+1791989053.362285376 [20] j100_0949.controller_server: Passing new path to controller.
+1791989054.362303495 [20] j100_0949.controller_server: Passing new path to controller.
+1791989055.412262440 [20] j100_0949.controller_server: Passing new path to controller.
+1791989056.412283421 [20] j100_0949.controller_server: Passing new path to controller.
+1791989057.462283850 [20] j100_0949.controller_server: Passing new path to controller.
+1791989058.462290525 [20] j100_0949.controller_server: Passing new path to controller.
+1791989059.512289047 [20] j100_0949.controller_server: Passing new path to controller.
+1791989060.512277603 [20] j100_0949.controller_server: Passing new path to controller.
+1791989061.562284470 [20] j100_0949.controller_server: Passing new path to controller.
+1791989062.562282801 [20] j100_0949.controller_server: Passing new path to controller.
+1791989063.612289429 [20] j100_0949.controller_server: Passing new path to controller.
+1791989064.612262487 [20] j100_0949.controller_server: Passing new path to controller.
+1791989065.662284374 [20] j100_0949.controller_server: Passing new path to controller.
+1791989066.662284136 [20] j100_0949.controller_server: Passing new path to controller.
+1791989067.712284803 [20] j100_0949.controller_server: Passing new path to controller.
+1791989068.712276697 [20] j100_0949.controller_server: Passing new path to controller.
+1791989069.762278318 [20] j100_0949.controller_server: Passing new path to controller.
+1791989070.738300562 [20] j100_0949.local_costmap.local_costmap: StaticLayer: Resizing static layer to 452 X 609 at 0.050000 m/pix
+1791989070.762274027 [20] j100_0949.controller_server: Passing new path to controller.
+1791989071.561035872 [20] j100_0949.global_costmap.global_costmap: StaticLayer: Resizing static layer to 452 X 609 at 0.050000 m/pix
+1791989071.812292814 [20] j100_0949.controller_server: Passing new path to controller.
+1791989072.812300920 [20] j100_0949.controller_server: Passing new path to controller.
+1791989073.862277985 [20] j100_0949.controller_server: Passing new path to controller.
+1791989074.862303257 [20] j100_0949.controller_server: Passing new path to controller.
+1791989075.912282705 [20] j100_0949.controller_server: Passing new path to controller.
+1791989076.912283897 [20] j100_0949.controller_server: Passing new path to controller.
+1791989077.962286711 [20] j100_0949.controller_server: Passing new path to controller.
+1791989078.962285280 [20] j100_0949.controller_server: Passing new path to controller.
+1791989080.012280941 [20] j100_0949.controller_server: Passing new path to controller.
+1791989081.062270403 [20] j100_0949.controller_server: Passing new path to controller.
+1791989082.062264204 [20] j100_0949.controller_server: Passing new path to controller.
+1791989083.062290192 [20] j100_0949.controller_server: Passing new path to controller.
+1791989084.112263203 [20] j100_0949.controller_server: Passing new path to controller.
+1791989085.013072729 [40] j100_0949.controller_server: Failed to make progress
+1791989085.019427299 [20] j100_0949.controller_server: Optimizer reset
+1791989085.019715309 [30] j100_0949.controller_server: [follow_path] [ActionServer] Aborting handle.
+1791989085.031521559 [20] j100_0949.local_costmap.local_costmap: Received request to clear entirely the local_costmap
+1791989085.033439875 [20] j100_0949.controller_server: Received a goal, begin computing control effort.
+1791989085.143826008 [20] j100_0949.controller_server: Passing new path to controller.
+1791989085.162145376 [30] j100_0949.controller_server: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 7.7884 Hz.
+1791989086.162330389 [20] j100_0949.controller_server: Passing new path to controller.
+1791989087.162353754 [20] j100_0949.controller_server: Passing new path to controller.
+1791989088.212342978 [20] j100_0949.controller_server: Passing new path to controller.
+1791989089.212325811 [20] j100_0949.controller_server: Passing new path to controller.
+1791989090.262327909 [20] j100_0949.controller_server: Passing new path to controller.
+1791989091.262311935 [20] j100_0949.controller_server: Passing new path to controller.
+1791989092.312311888 [20] j100_0949.controller_server: Passing new path to controller.
+1791989093.362331152 [20] j100_0949.controller_server: Passing new path to controller.
+1791989094.362333775 [20] j100_0949.controller_server: Passing new path to controller.
+1791989095.412321806 [20] j100_0949.controller_server: Passing new path to controller.
+1791989096.412309647 [20] j100_0949.controller_server: Passing new path to controller.
+1791989097.462328434 [20] j100_0949.controller_server: Passing new path to controller.
+1791989098.462323427 [20] j100_0949.controller_server: Passing new path to controller.
+1791989098.811994314 [40] j100_0949.bt_navigator_navigate_to_pose_rclcpp_node: Failed to get result for follow_path in node halt!
+1791989098.812282085 [20] j100_0949.bt_navigator: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+1791989098.812322140 [20] j100_0949.controller_server: Cancellation was successful. Stopping the robot.
+1791989098.812451363 [20] j100_0949.controller_server: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+1791989098.812586784 [20] j100_0949.bt_navigator: Goal canceled
+1791989098.813520432 [20] j100_0949.controller_server: Optimizer reset
+1791989099.341967821 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.5293164680 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.373099566 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.5604463010 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.393946171 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.5812936660 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.414506912 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.6018553700 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.435233355 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.6225812050 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.456179857 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.6435283630 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.476915598 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.6642650470 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.518278122 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.7056261970 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.559565067 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.7469127440 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.600542068 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.7878906200 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.641422987 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.8287705270 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.672605991 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.8599524590 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.693334341 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.8806812510 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.713861704 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.9012107370 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.734613419 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.9219619040 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.755325794 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.9426730330 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.776140451 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.9634873280 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.797031879 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 0.9843788950 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.838244200 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 1.0255924830 seconds, which exceeds the allowed timeout (0.5000)
+1791989099.879036188 [30] j100_0949.platform_velocity_controller: Ignoring the received message (timestamp 1791989098.8126482964) because it is older than the current time by 1.0663858860 seconds, which exceeds the allowed timeout (0.5000)
+1791989104.080290556 [20] j100_0949.foxglove_bridge: Removing channel 317 for topic "/j100_0949/particlecloud" (geometry_msgs/msg/PoseArray)
+1791989104.080477238 [20] j100_0949.foxglove_bridge: Removing channel 316 for topic "/j100_0949/sensors/lidar2d_0/scan" (sensor_msgs/msg/LaserScan)
+1791989104.080658436 [20] j100_0949.foxglove_bridge: Removing channel 318 for topic "/j100_0949/map_updates" (map_msgs/msg/OccupancyGridUpdate)
+1791989104.080727577 [20] j100_0949.foxglove_bridge: Removing channel 319 for topic "/j100_0949/local_plan" (nav_msgs/msg/Path)
+1791989104.080792427 [20] j100_0949.foxglove_bridge: Removing channel 320 for topic "/j100_0949/local_costmap/voxel_marked_cloud" (sensor_msgs/msg/PointCloud)
+1791989104.080862284 [20] j100_0949.foxglove_bridge: Removing channel 321 for topic "/j100_0949/initialpose" (geometry_msgs/msg/PoseWithCovarianceStamped)
+1791989104.080932140 [20] j100_0949.foxglove_bridge: Removing channel 322 for topic "/j100_0949/waypoints" (visualization_msgs/msg/MarkerArray)
+1791989104.081001282 [20] j100_0949.foxglove_bridge: Removing channel 323 for topic "/j100_0949/downsampled_costmap" (nav_msgs/msg/OccupancyGrid)
+1791989104.081069708 [20] j100_0949.foxglove_bridge: Removing channel 324 for topic "/j100_0949/clicked_point" (geometry_msgs/msg/PointStamped)
+1791989104.081135750 [20] j100_0949.foxglove_bridge: Removing channel 325 for topic "/j100_0949/global_costmap/voxel_marked_cloud" (sensor_msgs/msg/PointCloud)
+1791989104.081197262 [20] j100_0949.foxglove_bridge: Removing channel 326 for topic "/j100_0949/downsampled_costmap_updates" (map_msgs/msg/OccupancyGridUpdate)

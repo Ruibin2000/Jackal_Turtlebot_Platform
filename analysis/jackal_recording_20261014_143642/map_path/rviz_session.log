@@ -1,0 +1,83 @@
+[INFO] [1792002934.881024065] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1792002934.881088151] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1792002934.900887039] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1792002936.174296831] [rviz2]: Trying to create a map of size 83 x 83 using 1 swatches
+[INFO] [1792002936.174675089] [rviz2]: Trying to create a map of size 734 x 282 using 1 swatches
+[INFO] [1792002936.174927277] [rviz2]: Trying to create a map of size 333 x 333 using 1 swatches
+[INFO] [1792002944.932176469] [j100_0949.rviz2]: Message Filter dropping message: frame 'odom' at time 1792002933.818 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1792002945.132600961] [j100_0949.rviz2]: Message Filter dropping message: frame 'odom' at time 1792002933.991 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1792003020.551585506] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003023.589710473] [rviz2]: Trying to create a map of size 734 x 285 using 1 swatches
+[INFO] [1792003029.606533820] [rviz2]: Trying to create a map of size 744 x 285 using 1 swatches
+[INFO] [1792003032.614297932] [rviz2]: Trying to create a map of size 745 x 288 using 1 swatches
+[INFO] [1792003099.666435820] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003136.134121009] [rviz2]: Trying to create a map of size 768 x 288 using 1 swatches
+[INFO] [1792003137.638545403] [rviz2]: Trying to create a map of size 838 x 288 using 1 swatches
+[INFO] [1792003182.986197451] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003188.647697789] [rviz2]: Trying to create a map of size 838 x 289 using 1 swatches
+[INFO] [1792003191.686099182] [rviz2]: Trying to create a map of size 884 x 289 using 1 swatches
+[INFO] [1792003199.109221418] [rviz2]: Trying to create a map of size 885 x 289 using 1 swatches
+[INFO] [1792003215.623042615] [rviz2]: Trying to create a map of size 902 x 289 using 1 swatches
+[INFO] [1792003217.128740395] [rviz2]: Trying to create a map of size 908 x 289 using 1 swatches
+[INFO] [1792003223.110619157] [rviz2]: Trying to create a map of size 932 x 289 using 1 swatches
+[INFO] [1792003224.647212660] [rviz2]: Trying to create a map of size 932 x 319 using 1 swatches
+[INFO] [1792003226.118191911] [rviz2]: Trying to create a map of size 934 x 319 using 1 swatches
+[INFO] [1792003232.102921495] [rviz2]: Trying to create a map of size 939 x 319 using 1 swatches
+[INFO] [1792003236.612962358] [rviz2]: Trying to create a map of size 941 x 319 using 1 swatches
+[INFO] [1792003241.124501965] [rviz2]: Trying to create a map of size 943 x 319 using 1 swatches
+[INFO] [1792003242.692379640] [rviz2]: Trying to create a map of size 956 x 319 using 1 swatches
+[INFO] [1792003244.101036461] [rviz2]: Trying to create a map of size 958 x 319 using 1 swatches
+[INFO] [1792003273.556950593] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003278.696696191] [rviz2]: Trying to create a map of size 972 x 319 using 1 swatches
+[INFO] [1792003281.706474047] [rviz2]: Trying to create a map of size 973 x 319 using 1 swatches
+[INFO] [1792003283.146220289] [rviz2]: Trying to create a map of size 977 x 376 using 1 swatches
+[INFO] [1792003286.184120914] [rviz2]: Trying to create a map of size 977 x 377 using 1 swatches
+[INFO] [1792003292.171858252] [rviz2]: Trying to create a map of size 986 x 377 using 1 swatches
+[INFO] [1792003304.135138870] [rviz2]: Trying to create a map of size 998 x 377 using 1 swatches
+[INFO] [1792003307.207059054] [rviz2]: Trying to create a map of size 1005 x 377 using 1 swatches
+[INFO] [1792003308.614729367] [rviz2]: Trying to create a map of size 1006 x 377 using 1 swatches
+[INFO] [1792003313.190449186] [rviz2]: Trying to create a map of size 1007 x 435 using 1 swatches
+[INFO] [1792003314.632378641] [rviz2]: Trying to create a map of size 1007 x 447 using 1 swatches
+[INFO] [1792003337.225646121] [rviz2]: Trying to create a map of size 1019 x 447 using 1 swatches
+[INFO] [1792003345.000031871] [rviz2]: Trying to create a map of size 1020 x 447 using 1 swatches
+[INFO] [1792003353.670872793] [rviz2]: Trying to create a map of size 1039 x 447 using 1 swatches
+[INFO] [1792003359.717869883] [rviz2]: Trying to create a map of size 1064 x 447 using 1 swatches
+[INFO] [1792003361.317919558] [rviz2]: Trying to create a map of size 1065 x 447 using 1 swatches
+[INFO] [1792003367.301717125] [rviz2]: Trying to create a map of size 1067 x 447 using 1 swatches
+[INFO] [1792003370.180948821] [rviz2]: Trying to create a map of size 1076 x 447 using 1 swatches
+[INFO] [1792003385.317811144] [rviz2]: Trying to create a map of size 1079 x 447 using 1 swatches
+[INFO] [1792003388.294067335] [rviz2]: Trying to create a map of size 1083 x 447 using 1 swatches
+[INFO] [1792003389.733089784] [rviz2]: Trying to create a map of size 1086 x 447 using 1 swatches
+[INFO] [1792003395.749369159] [rviz2]: Trying to create a map of size 1100 x 447 using 1 swatches
+[INFO] [1792003398.256363809] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003410.824402089] [rviz2]: Trying to create a map of size 1101 x 447 using 1 swatches
+[INFO] [1792003412.230455478] [rviz2]: Trying to create a map of size 1110 x 447 using 1 swatches
+[INFO] [1792003416.775101832] [rviz2]: Trying to create a map of size 1113 x 447 using 1 swatches
+[INFO] [1792003424.199614444] [rviz2]: Trying to create a map of size 1118 x 447 using 1 swatches
+[INFO] [1792003425.736048851] [rviz2]: Trying to create a map of size 1121 x 447 using 1 swatches
+[INFO] [1792003430.246008827] [rviz2]: Trying to create a map of size 1131 x 447 using 1 swatches
+[INFO] [1792003442.311433995] [rviz2]: Trying to create a map of size 1143 x 447 using 1 swatches
+[INFO] [1792003451.206834611] [rviz2]: Trying to create a map of size 1144 x 447 using 1 swatches
+[INFO] [1792003460.923004442] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003468.447166465] [j100_0949.rviz2]: Message Filter dropping message: frame 'odom' at time 1792003465.011 for reason 'discarding message because the queue is full'
+[INFO] [1792003469.223065308] [rviz2]: Trying to create a map of size 1145 x 447 using 1 swatches
+[INFO] [1792003472.296429284] [rviz2]: Trying to create a map of size 1177 x 447 using 1 swatches
+[INFO] [1792003482.791811564] [rviz2]: Trying to create a map of size 1185 x 447 using 1 swatches
+[INFO] [1792003487.272415309] [rviz2]: Trying to create a map of size 1188 x 447 using 1 swatches
+[INFO] [1792003488.775858092] [rviz2]: Trying to create a map of size 1189 x 447 using 1 swatches
+[INFO] [1792003497.767450090] [rviz2]: Trying to create a map of size 1205 x 447 using 1 swatches
+[INFO] [1792003500.742537919] [rviz2]: Trying to create a map of size 1208 x 447 using 1 swatches
+[INFO] [1792003502.217777676] [rviz2]: Trying to create a map of size 1210 x 447 using 1 swatches
+[INFO] [1792003508.325029351] [rviz2]: Trying to create a map of size 1212 x 447 using 1 swatches
+[INFO] [1792003511.205173228] [rviz2]: Trying to create a map of size 1217 x 447 using 1 swatches
+[INFO] [1792003514.247975070] [rviz2]: Trying to create a map of size 1221 x 447 using 1 swatches
+[INFO] [1792003527.380843311] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003539.750713476] [rviz2]: Trying to create a map of size 1222 x 447 using 1 swatches
+[INFO] [1792003544.228801723] [rviz2]: Trying to create a map of size 1223 x 447 using 1 swatches
+[INFO] [1792003560.774907401] [rviz2]: Trying to create a map of size 1224 x 447 using 1 swatches
+[INFO] [1792003565.381139021] [rviz2]: Trying to create a map of size 1275 x 447 using 1 swatches
+[INFO] [1792003604.259990790] [rviz2]: Trying to create a map of size 1318 x 447 using 1 swatches
+[INFO] [1792003644.318149977] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003702.150627941] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003755.050668783] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[INFO] [1792003854.718500682] [j100_0949.rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.

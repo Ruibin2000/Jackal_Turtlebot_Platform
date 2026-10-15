@@ -1,0 +1,7 @@
+{
+  "original_path": "/home/nyu/.ros/log/rviz2_2785433_1792002934425.log",
+  "copy": "rviz_session.log",
+  "sha256": "e65c01eed000b06134d3f923f81fd375ae314629503bcf716dfda8620cd8e621",
+  "event_meaning": "RViz NavigateToPose request, before async_send_goal; not server acceptance",
+  "source_reference": "https://github.com/ros-navigation/navigation2/blob/1.3.12/nav2_rviz_plugins/src/nav2_panel.cpp#L1186-L1225"
+}

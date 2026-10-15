@@ -1,0 +1,410 @@
+# Jackal J100 / ROS 2 Jazzy: low-speed indoor MPPI candidate, 2026-10-12.
+# Based on this repository's nav2_low_speed.yaml; NOT a proven tuning result.
+# Generated locally; deployment and robot motion validation are still required.
+# Install BOTH *_indoor_recovery.xml files alongside this YAML on Jackal.
+# Existing custom launch reads ~/jackal_nav2/nav2_low_speed.yaml:
+# back up that active file, then copy this candidate to that name before launch.
+# Deployment, runtime checks and rollback: startup manual section 4.5.
+#
+# Forward / reverse / yaw limits: +0.20 m/s / -0.10 m/s / +/-0.20 rad/s.
+# MPPI and smoother retain matched +/-0.30 linear/angular acceleration limits.
+# Do not reduce braking further just to obtain gentler acceleration.
+# Predictions: 80 * 0.05 = 4 s; controller 20 Hz; smoother 50 Hz.
+# 1500 samples keep the rollout size near baseline (120000 vs 112000 states).
+# This is NOT a timing benchmark; check sustained control-loop overruns on robot.
+# Goal position/yaw tolerances remain 0.25 m / 0.25 rad.
+# Recovery: each Spin requests ~30 deg; each BackUp requests 0.15 m at 0.05 m/s.
+# Recovery can repeat, and MPPI still permits reverse; this is not a no-reverse mode.
+#
+# User confirmed this footprint relative to base_link: front/rear 0.26 m,
+# left/right 0.22 m (0.52 x 0.44 m), with 0.02 m padding on each side.
+# The padded rectangle is 0.56 x 0.48 m. Recheck if the payload changes.
+# Both costmaps use inflation_radius 0.6 m; cost_scaling_factor remains 4.0.
+# Ring 15 is a driver setting, not a Nav2 parameter. No mounting/TF rotation here.
+# Reference for parameter meanings (values below are our trial, not copied results):
+# https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/controller_plugins/mppi_controller/configuring_mppic/
+bt_navigator:
+  ros__parameters:
+    default_nav_to_pose_bt_xml: /home/robot/jackal_nav2/behavior_trees/navigate_to_pose_indoor_recovery.xml
+    default_nav_through_poses_bt_xml: /home/robot/jackal_nav2/behavior_trees/navigate_through_poses_indoor_recovery.xml
+    enable_stamped_cmd_vel: true
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: platform/odom/filtered
+    bt_loop_duration: 10
+    default_server_timeout: 20
+    wait_for_service_timeout: 1000
+    action_server_result_timeout: 900.0
+    navigators:
+    - navigate_to_pose
+    - navigate_through_poses
+    navigate_to_pose:
+      plugin: nav2_bt_navigator::NavigateToPoseNavigator
+    navigate_through_poses:
+      plugin: nav2_bt_navigator::NavigateThroughPosesNavigator
+    error_code_names:
+    - compute_path_error_code
+    - follow_path_error_code
+controller_server:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.5
+    min_theta_velocity_threshold: 0.001
+    failure_tolerance: 0.3
+    progress_checker_plugins:
+    - progress_checker
+    goal_checker_plugins:
+    - general_goal_checker
+    controller_plugins:
+    - FollowPath
+    use_realtime_priority: false
+    progress_checker:
+      plugin: nav2_controller::SimpleProgressChecker
+      # Reset the timer after >0.2 m displacement from the last baseline.
+      # This is not a path checkpoint; rotation alone does not count.
+      required_movement_radius: 0.2
+      movement_time_allowance: 30.0
+    general_goal_checker:
+      stateful: true
+      plugin: nav2_controller::SimpleGoalChecker
+      xy_goal_tolerance: 0.25
+      yaw_goal_tolerance: 0.25
+    FollowPath:
+      plugin: nav2_mppi_controller::MPPIController
+      time_steps: 80
+      model_dt: 0.05
+      batch_size: 1500
+      ax_max: 0.3
+      ax_min: -0.3
+      ay_max: 3.0
+      az_max: 0.3
+      # Sampling noise amplitude; reduce exploration for this low-speed trial.
+      vx_std: 0.1
+      vy_std: 0.0
+      wz_std: 0.1
+      vx_max: 0.2
+      vx_min: -0.1
+      vy_max: 0.0
+      wz_max: 0.2
+      iteration_count: 1
+      prune_distance: 1.7
+      transform_tolerance: 0.1
+      temperature: 0.3
+      gamma: 0.015
+      motion_model: DiffDrive
+      visualize: false
+      regenerate_noises: true
+      TrajectoryVisualizer:
+        trajectory_step: 5
+        time_step: 3
+      AckermannConstraints:
+        min_turning_r: 0.2
+      critics:
+      - ConstraintCritic
+      - CostCritic
+      - GoalCritic
+      - GoalAngleCritic
+      - PathAlignCritic
+      - PathFollowCritic
+      - PathAngleCritic
+      - PreferForwardCritic
+      ConstraintCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 4.0
+      GoalCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        threshold_to_consider: 0.8
+      GoalAngleCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 3.0
+        threshold_to_consider: 0.3
+      PreferForwardCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        threshold_to_consider: 0.5
+      CostCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 3.81
+        critical_cost: 300.0
+        consider_footprint: true
+        collision_cost: 1000000.0
+        near_goal_distance: 1.0
+        trajectory_point_step: 2
+      PathAlignCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 14.0
+        max_path_occupancy_ratio: 0.05
+        trajectory_point_step: 4
+        threshold_to_consider: 0.5
+        # Path-point count, not meters: lower the alignment activation gate.
+        offset_from_furthest: 10
+        use_path_orientations: false
+      PathFollowCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 5.0
+        offset_from_furthest: 5
+        threshold_to_consider: 0.8
+      PathAngleCritic:
+        enabled: true
+        cost_power: 1
+        cost_weight: 2.0
+        offset_from_furthest: 4
+        threshold_to_consider: 0.5
+        # ~20 deg activation threshold for heading cost, NOT a yaw-error cap.
+        max_angle_to_furthest: 0.35
+        mode: 0
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      enable_stamped_cmd_vel: true
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      global_frame: odom
+      robot_base_frame: base_link
+      rolling_window: true
+      width: 5
+      height: 5
+      resolution: 0.06
+      footprint: '[[0.26, 0.22], [0.26, -0.22], [-0.26, -0.22], [-0.26, 0.22]]'
+      footprint_padding: 0.02
+      always_send_full_costmap: true
+      plugins:
+      - static_layer
+      - voxel_layer
+      - inflation_layer
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        cost_scaling_factor: 4.0
+        inflation_radius: 0.6
+      voxel_layer:
+        plugin: nav2_costmap_2d::VoxelLayer
+        enabled: true
+        publish_voxel_map: true
+        origin_z: 0.0
+        z_resolution: 0.05
+        z_voxels: 16
+        max_obstacle_height: 2.0
+        mark_threshold: 0
+        observation_sources: scan
+        scan:
+          topic: /j100_0949/sensors/lidar3d_0/scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+          data_type: LaserScan
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      enable_stamped_cmd_vel: true
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: base_link
+      footprint: '[[0.26, 0.22], [0.26, -0.22], [-0.26, -0.22], [-0.26, 0.22]]'
+      footprint_padding: 0.02
+      resolution: 0.06
+      track_unknown_space: true
+      always_send_full_costmap: true
+      rolling_window: true
+      width: 20
+      height: 20
+      plugins:
+      - static_layer
+      - obstacle_layer
+      - inflation_layer
+      obstacle_layer:
+        plugin: nav2_costmap_2d::ObstacleLayer
+        enabled: true
+        observation_sources: scan
+        scan:
+          topic: /j100_0949/sensors/lidar3d_0/scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+          data_type: LaserScan
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        cost_scaling_factor: 4.0
+        inflation_radius: 0.6
+planner_server:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    planner_plugins:
+    - GridBased
+    GridBased:
+      plugin: nav2_navfn_planner::NavfnPlanner
+      tolerance: 0.5
+      use_astar: false
+      allow_unknown: true
+smoother_server:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    smoother_plugins:
+    - simple_smoother
+    simple_smoother:
+      plugin: nav2_smoother::SimpleSmoother
+      tolerance: 1.0e-10
+      max_its: 1000
+      do_refinement: true
+behavior_server:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    local_costmap_topic: local_costmap/costmap_raw
+    global_costmap_topic: global_costmap/costmap_raw
+    local_footprint_topic: local_costmap/published_footprint
+    global_footprint_topic: global_costmap/published_footprint
+    cycle_frequency: 10.0
+    behavior_plugins:
+    - spin
+    - backup
+    - drive_on_heading
+    - assisted_teleop
+    - wait
+    spin:
+      plugin: nav2_behaviors::Spin
+    backup:
+      plugin: nav2_behaviors::BackUp
+    drive_on_heading:
+      plugin: nav2_behaviors::DriveOnHeading
+    wait:
+      plugin: nav2_behaviors::Wait
+    assisted_teleop:
+      plugin: nav2_behaviors::AssistedTeleop
+    global_frame: map
+    local_frame: odom
+    robot_base_frame: base_link
+    transform_tolerance: 0.1
+    simulate_ahead_time: 2.0
+    max_rotational_vel: 0.1
+    min_rotational_vel: 0.03
+    rotational_acc_lim: 0.15
+waypoint_follower:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    loop_rate: 20
+    stop_on_failure: false
+    action_server_result_timeout: 900.0
+    waypoint_task_executor_plugin: wait_at_waypoint
+    wait_at_waypoint:
+      plugin: nav2_waypoint_follower::WaitAtWaypoint
+      enabled: true
+      waypoint_pause_duration: 200
+velocity_smoother:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    smoothing_frequency: 50.0
+    scale_velocities: false
+    feedback: OPEN_LOOP
+    max_velocity:
+    - 0.2
+    - 0.0
+    - 0.2
+    min_velocity:
+    - -0.1
+    - 0.0
+    - -0.2
+    max_accel:
+    - 0.3
+    - 0.0
+    - 0.3
+    max_decel:
+    - -0.3
+    - 0.0
+    - -0.3
+    odom_topic: platform/odom/filtered
+    odom_duration: 0.1
+    deadband_velocity:
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity_timeout: 1.0
+collision_monitor:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    base_frame_id: base_link
+    odom_frame_id: odom
+    cmd_vel_in_topic: cmd_vel_smoothed
+    cmd_vel_out_topic: cmd_vel
+    state_topic: collision_monitor_state
+    transform_tolerance: 0.2
+    source_timeout: 1.0
+    base_shift_correction: true
+    stop_pub_timeout: 2.0
+    polygons:
+    - FootprintApproach
+    FootprintApproach:
+      type: polygon
+      action_type: approach
+      footprint_topic: local_costmap/published_footprint
+      time_before_collision: 0.3
+      simulation_time_step: 0.1
+      min_points: 12
+      visualize: false
+      enabled: true
+    observation_sources:
+    - scan
+    scan:
+      type: scan
+      topic: /j100_0949/sensors/lidar3d_0/scan
+      min_height: 0.15
+      max_height: 2.0
+      enabled: true
+docking_server:
+  ros__parameters:
+    enable_stamped_cmd_vel: true
+    controller_frequency: 50.0
+    initial_perception_timeout: 5.0
+    wait_charge_timeout: 5.0
+    dock_approach_timeout: 30.0
+    undock_linear_tolerance: 0.05
+    undock_angular_tolerance: 0.1
+    max_retries: 3
+    base_frame: base_link
+    fixed_frame: odom
+    dock_backwards: false
+    dock_prestaging_tolerance: 0.5
+    dock_plugins:
+    - simple_charging_dock
+    simple_charging_dock:
+      plugin: opennav_docking::SimpleChargingDock
+      docking_threshold: 0.05
+      staging_x_offset: -0.7
+      use_external_detection_pose: true
+      use_battery_status: false
+      use_stall_detection: false
+      external_detection_timeout: 1.0
+      external_detection_translation_x: -0.18
+      external_detection_translation_y: 0.0
+      external_detection_rotation_roll: -1.57
+      external_detection_rotation_pitch: -1.57
+      external_detection_rotation_yaw: 0.0
+      filter_coef: 0.1
+    controller:
+      k_phi: 3.0
+      k_delta: 2.0
+      v_linear_min: 0.15
+      v_linear_max: 0.15

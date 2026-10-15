@@ -1,0 +1,288 @@
+{
+  "bag": "/home/nyu/Desktop/jackal_rosbag_repo/recording/jackal_20261014_143642",
+  "map": {
+    "frame": "map",
+    "stamp": 1792004052.4941401,
+    "receipt": 1792004054.3170233,
+    "resolution": 0.05000000074505806,
+    "width": 1318,
+    "height": 447,
+    "origin": [
+      -18.919004643045408,
+      -13.744708048874186,
+      0.0
+    ]
+  },
+  "counts": {
+    "tf": 142836,
+    "tf_static": 4,
+    "map": 696,
+    "pose": 406
+  },
+  "pose_frames": {
+    "map": 406
+  },
+  "dynamic": [
+    {
+      "key": "tf_0",
+      "parent": "odom",
+      "child": "base_link",
+      "count": 52279,
+      "stamp_range": [
+        1792003007.4107594,
+        1792004052.9906793
+      ]
+    },
+    {
+      "key": "tf_1",
+      "parent": "odom",
+      "child": "imu_0_link",
+      "count": 52218,
+      "stamp_range": [
+        1792003007.4019718,
+        1792004052.9613106
+      ]
+    },
+    {
+      "key": "tf_2",
+      "parent": "chassis_link",
+      "child": "front_left_wheel_link",
+      "count": 17427,
+      "stamp_range": [
+        1792003007.4107354,
+        1792004052.9706442
+      ]
+    },
+    {
+      "key": "tf_3",
+      "parent": "chassis_link",
+      "child": "front_right_wheel_link",
+      "count": 17427,
+      "stamp_range": [
+        1792003007.4107354,
+        1792004052.9706442
+      ]
+    },
+    {
+      "key": "tf_4",
+      "parent": "chassis_link",
+      "child": "rear_left_wheel_link",
+      "count": 17427,
+      "stamp_range": [
+        1792003007.4107354,
+        1792004052.9706442
+      ]
+    },
+    {
+      "key": "tf_5",
+      "parent": "chassis_link",
+      "child": "rear_right_wheel_link",
+      "count": 17427,
+      "stamp_range": [
+        1792003007.4107354,
+        1792004052.9706442
+      ]
+    },
+    {
+      "key": "tf_6",
+      "parent": "map",
+      "child": "odom_start",
+      "count": 20912,
+      "stamp_range": [
+        1792003007.6190593,
+        1792004053.1941414
+      ]
+    }
+  ],
+  "static": [
+    {
+      "parent": "camera_0_link",
+      "child": "camera_0_depth_frame",
+      "pose": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "camera_0_depth_frame",
+      "child": "camera_0_depth_optical_frame",
+      "pose": [
+        0.0,
+        -0.0,
+        -1.5707963267948963
+      ]
+    },
+    {
+      "parent": "camera_0_link",
+      "child": "camera_0_color_frame",
+      "pose": [
+        -0.0005954233929514885,
+        0.014795149676501751,
+        0.003978271354062525
+      ]
+    },
+    {
+      "parent": "camera_0_color_frame",
+      "child": "camera_0_color_optical_frame",
+      "pose": [
+        0.0,
+        -0.0,
+        -1.5707963267948963
+      ]
+    },
+    {
+      "parent": "lidar3d_0_sensor_link",
+      "child": "lidar3d_0_laser",
+      "pose": [
+        0.0,
+        0.0,
+        3.141592653589793
+      ]
+    },
+    {
+      "parent": "lidar3d_0_sensor_link",
+      "child": "lidar3d_0_imu",
+      "pose": [
+        -0.002441,
+        -0.009725,
+        0.0
+      ]
+    },
+    {
+      "parent": "odom_start",
+      "child": "odom",
+      "pose": [
+        8.028431079068714,
+        1.9277418744998198,
+        1.190724491244775
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "chassis_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "camera_0_bottom_screw_frame",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "camera_0_bottom_screw_frame",
+      "child": "camera_0_link",
+      "pose": [
+        0.010600000000000002,
+        0.0175,
+        0.0
+      ]
+    },
+    {
+      "parent": "chassis_link",
+      "child": "default_mount",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "default_mount",
+      "child": "front_0_mount",
+      "pose": [
+        0.12,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "front_fender_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "chassis_link",
+      "child": "imu_0_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "lidar3d_0_base_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "lidar3d_0_link",
+      "child": "lidar3d_0_cap_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "lidar3d_0_base_link",
+      "child": "lidar3d_0_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "lidar3d_0_link",
+      "child": "lidar3d_0_sensor_link",
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "chassis_link",
+      "child": "gps_0_link",
+      "pose": [
+        -0.18,
+        0.126,
+        0.0
+      ]
+    },
+    {
+      "parent": "default_mount",
+      "child": "rear_0_mount",
+      "pose": [
+        -0.12,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "rear_fender_link",
+      "pose": [
+        0.0,
+        0.0,
+        3.1415
+      ]
+    }
+  ]
+}

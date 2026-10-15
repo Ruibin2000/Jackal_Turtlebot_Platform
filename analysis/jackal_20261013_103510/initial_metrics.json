@@ -1,0 +1,65 @@
+{
+  "goals": [
+    {
+      "goal": 1,
+      "duration_s": 78.71115326881409,
+      "goal_xy_yaw": [
+        3.311967134475708,
+        0.08990119397640228,
+        -1.5155732148488643
+      ],
+      "final_pose": [
+        3.254553301739988,
+        0.06300523642684903,
+        -1.2678745882845301
+      ],
+      "map_travel_m": 3.2416288513943807,
+      "map_total_absolute_yaw_deg": 81.93482077992614,
+      "progress_failures": 1,
+      "stopped_fraction_odom": 0.1796239837398374,
+      "vx_median_odom": 0.002779807368806278,
+      "reverse_fraction_command": 0.1407520325203252
+    },
+    {
+      "goal": 2,
+      "duration_s": 519.1612260341644,
+      "goal_xy_yaw": [
+        -0.7891355156898499,
+        -0.11114299297332764,
+        3.1210254031900084
+      ],
+      "final_pose": [
+        -0.7486507909166566,
+        -0.2893178199553522,
+        -2.91490963520109
+      ],
+      "map_travel_m": 7.254985139048667,
+      "map_total_absolute_yaw_deg": 446.3060684375341,
+      "progress_failures": 10,
+      "stopped_fraction_odom": 0.5795677799607073,
+      "vx_median_odom": -7.971233328767499e-05,
+      "reverse_fraction_command": 0.08817751068993412
+    },
+    {
+      "goal": 3,
+      "duration_s": 506.42131900787354,
+      "goal_xy_yaw": [
+        3.8532557487487793,
+        -0.8492703437805176,
+        -1.5432521750887571
+      ],
+      "final_pose": [
+        4.04127452380995,
+        -0.7603358823689965,
+        -1.295184195930383
+      ],
+      "map_travel_m": 7.862932952708774,
+      "map_total_absolute_yaw_deg": 454.9021593383169,
+      "progress_failures": 8,
+      "stopped_fraction_odom": 0.5574819319932072,
+      "vx_median_odom": -0.00018234348514916686,
+      "reverse_fraction_command": 0.1936337427431776
+    }
+  ],
+  "receive_time_minus_robot_stamp_s": 1.756352424621582
+}
